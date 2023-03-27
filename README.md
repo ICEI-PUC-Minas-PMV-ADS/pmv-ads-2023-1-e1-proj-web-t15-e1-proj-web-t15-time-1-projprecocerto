@@ -1,23 +1,28 @@
-# TÍTULO DO PROJETO
+# Preço Certo
 
-`CURSO`
+`ADS-2023-E1`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Primeiro Semestre (E1)`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
+Projeto que está sendo desenvolvido, é uma aplicação Web para busca de preços mais justos de uma lista de compra em diferentes Supermercados,
+próximo ao usuário do App.
+
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Felipe Joseph S de Almeida
+* Caio César Santos Rezende
+* Simon Henrique Santos Rezende
+* Gabriel Yan Moreira Laignier
+* Pedro Henrique Gomes de Souza
+* Tatiana Loureiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Wagner Cipriano da Silva
 
 ## Instruções de utilização
 
