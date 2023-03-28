@@ -6,8 +6,6 @@
 
 `Primeiro Semestre (E1)`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
-
 Projeto que está sendo desenvolvido, é uma aplicação Web para busca de preços mais justos de uma lista de compra em diferentes Supermercados,
 próximo ao usuário do App.
 
