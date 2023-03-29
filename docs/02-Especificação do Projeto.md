@@ -9,8 +9,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ![image](https://user-images.githubusercontent.com/128651687/228518443-9ef2abf2-f893-4986-a366-816e6cea9e42.png)
 ![image](https://user-images.githubusercontent.com/128651687/228518486-b99ba247-7631-406e-8caf-d5f8e7e18175.png)
-![image](https://user-images.githubusercontent.com/128651687/228520531-c31a6707-64f0-4668-a634-4fc313e93d9b.png)
-![image](https://user-images.githubusercontent.com/128651687/228520605-db7188cb-8fb2-48b7-84eb-a878b8ae8f45.png)
+![image](https://user-images.githubusercontent.com/128651687/228520873-6066df31-6637-431d-b98d-25541677448b.png)
+![image](https://user-images.githubusercontent.com/128651687/228520955-a3f31003-e70a-4953-bb5b-7940f3acabcc.png)
 
 ## Histórias de Usuários
 
