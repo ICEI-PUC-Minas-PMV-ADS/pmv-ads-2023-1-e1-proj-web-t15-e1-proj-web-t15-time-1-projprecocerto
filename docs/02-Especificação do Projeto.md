@@ -10,18 +10,14 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ![image](https://user-images.githubusercontent.com/128651687/228518443-9ef2abf2-f893-4986-a366-816e6cea9e42.png)
 ![image](https://user-images.githubusercontent.com/128651687/228518486-b99ba247-7631-406e-8caf-d5f8e7e18175.png)
-![image](https://user-images.githubusercontent.com/128651687/228518545-aa80b85a-1050-47b5-989b-ae5f2c79247e.png)
-![image](https://user-images.githubusercontent.com/128651687/228518601-642dfab2-baf5-4dfd-8a02-f5a3cac2cdf6.png)
-
+![image](https://user-images.githubusercontent.com/128651687/228519314-15ffc8c0-25f1-4ac0-8302-25cf77c33595.png)
+![image](https://user-images.githubusercontent.com/128651687/228519389-b5fa796d-d60c-41b4-bc51-ff1366cba438.png)
 
 ## Histórias de Usuários
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+![image](https://user-images.githubusercontent.com/128651687/228519103-850983bc-1b1f-42b1-9316-2ed8747915d6.png)
 
 
 ## Requisitos
