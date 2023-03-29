@@ -16,8 +16,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-![image](https://user-images.githubusercontent.com/128651687/228519103-850983bc-1b1f-42b1-9316-2ed8747915d6.png)
-
+![image](https://user-images.githubusercontent.com/128651687/228522192-c1a43bb2-96a5-46bb-8aa0-5c4738b16b64.png)
 
 ## Requisitos
 
