@@ -13,7 +13,7 @@ próximo ao usuário do App.
 
 * Felipe Joseph S de Almeida
 * Caio César Santos Rezende
-* Simon Henrique Santos Rezende
+* Simon Henrique Souza Capanema
 * Gabriel Yan Moreira Laignier
 * Pedro Henrique Gomes de Souza
 * Tatiana Loureiro
