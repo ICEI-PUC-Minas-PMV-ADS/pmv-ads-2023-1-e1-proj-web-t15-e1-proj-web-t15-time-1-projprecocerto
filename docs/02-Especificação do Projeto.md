@@ -28,7 +28,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ---         |     ---      |          :---: |
 | RF-01   | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
 | RF-02     | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
-| RF-03     | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.     | Média      |
+| RF-03     | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média      |
 | RF-04     | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.       | Alta      |
 | RF-05     | O sistema deve permitir que os usuários avaliem os supermercados e os produtos.     | Baixa      |
 | RF-06     | O sistema deve permitir que os usuários se inscrevam em notificações por e-mail, que forneçam informações sobre promoções, descontos e ofertas especiais em seus supermercados favoritos.       | Baixa      |
