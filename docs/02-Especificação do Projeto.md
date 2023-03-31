@@ -68,14 +68,14 @@ Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
 todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o final do semestre, 12/07/23 |
+|02| Não pode ser desenvolvido um módulo de backend |
+|03| O projeto não possui orçamento |
+|04| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+|05| A equipe de desenvolvedores deve ser composta de programadores sem expêriencia |
+|06| Alguns dados não poderão ser publicados por possuir dados sensíveis |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
