@@ -1,36 +1,39 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com as inovações tecnológicas ganhando cada vez mais espaço em nossas vidas fica difícil pensar hoje em executar inúmeras tarefas sem a ajuda de algum dispositivo móvel ou sistema Web que facilitam nossas atividades diárias. Desde as mais simples até as mais complexas que podem exigir uma força de trabalho maior. Foi assim com as Linhas de Montagem, com os Sistemas Contábeis, Sistemas Bancários enfim, uma infinidade de atividades que hoje já não são mais as mesmas com a entrada da tecnologia para melhorar as nossas vidas
+
+Além do que, atualmente  cada segundo do nosso tempo é valioso, fazendo com que  não se perca tempo com tarefas complicadas e cansativas, tudo isso pode  ser realizado por sistemas autônomos, que entregam um valor final muito satisfatório para os usuários com economia de tempo. Com o consumidor não é diferente, ele está mais exigente com as tarefas diárias, e quer cada vez mais que sejam executadas de forma rápida e com qualidade.
+
+De frente a essa questão viu-se a necessidade de criar um sistema Web de pesquisa de preços.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Diante do exposto, o problema que se busca resolver com esse projeto é a automação da pesquisa de preços em supermercados, feita antigamente por “Donas de Casa”, mas que hoje com a evolução da sociedade virou tarefa de qualquer membro de uma residência Brasileira, afinal em tempos de oscilações de preços e do movimento frenético dos dias atuais, os consumidores, acabam pagando mais caro por produtos próximos de casa por não ter tido tempo de fazer uma pesquisa minuciosa de preços, em diferentes estabelecimentos.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo com esse projeto visa a criação de uma aplicação inicialmente Web, que exibe para o usuário devidamente cadastrado na plataforma, e com base nas informações de produtos que ele inserir no sistema, que esse seja capaz de fazer a comparação de preços em diferentes estabelecimentos de supermercados próximos à residência do usuário exibindo os resultados em tela, com o preço dos itens que ele inseriu, bem como o valor final da compra. Ou seja, a aplicação monta a lista de qual supermercado a compra ficará mais barata naquele dia, para que ele possa efetuar a compra pela própria plataforma sendo redirecionado ao site do mercado.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+`Como objetivos específicos, podemos citar:`
+
+:point_right: Entregar para o usuário uma lista de compras com menor preço.
+
+:point_right: Economia de tempo e dinheiro na hora de fazer a compra.
+
+:point_right: Conforto na escolha dos itens que irá comprar.
+
+:point_right: Agilidade na aquisição dos itens, uma vez que já se sabe qual mercado a compra ficou mais barata.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Observa-se uma grande dificuldade do cliente em encontrar o melhor preço para os produtos que precisa comprar nos supermercados, fazendo com que comprem em diversos estabelecimentos diferentes para obter o melhor custo para suas compras. Segundo dados da Associação Brasileira de Supermercados, os brasileiros irão gastar quase 4% a mais com compras de mercado em 2023. De acordo com dados da associação, o valor da cesta de 35 produtos de largo consumo encerrou 2022 com alta de 7,69% (fonte: ABRAS). No Brasil a inflação neste mês sofreu mais um aumento, o índice foi atualizado para 5,6% no acumulado de 12 meses até fevereiro de 2023, na comparação com a projeção de dezembro de 2022. Sofrendo um aumento de 0,07% para o IPCA. No mundo a projeção é que a inflação fique em 6,6%, segundo dados do FMI.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Para isso, é necessária uma aplicação para auxiliar a busca por menores preços, que não faça o cliente perder tempo com pesquisas de preços, facilitando a vida dos clientes de menor poder econômico, ou que querem ter um maior controle do orçamento nas compras.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
