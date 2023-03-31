@@ -17,7 +17,7 @@ Diante do exposto, o problema que se busca resolver com esse projeto é a automa
 
 O objetivo com esse projeto visa a criação de uma aplicação inicialmente Web, que exibe para o usuário devidamente cadastrado na plataforma, e com base nas informações de produtos que ele inserir no sistema, que esse seja capaz de fazer a comparação de preços em diferentes estabelecimentos de supermercados próximos à residência do usuário exibindo os resultados em tela, com o preço dos itens que ele inseriu, bem como o valor final da compra. Ou seja, a aplicação monta a lista de qual supermercado a compra ficará mais barata naquele dia, para que ele possa efetuar a compra pela própria plataforma sendo redirecionado ao site do mercado.
 
-`Como objetivos específicos, podemos citar:`
+## Como Objetivos Específicos, podemos citar:
 
 :point_right: Entregar para o usuário uma lista de compras com menor preço.
 
