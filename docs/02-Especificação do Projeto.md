@@ -42,8 +42,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | MÉDIA | 
+|RNF-002| O site deve ser protegido contra malwares e trojans | ALTA | 
+|RNF-003| O site deve ser confiável e atender aos requisitos do usuário | ALTA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA |
+|RNF-005| O site deve ter bom nível de contraste entre os elementos da tela em conformidade | ALTA |
+|RNF-006| O site deve ser capaz de lidar com grande volume de usuários sem alteração no desempenho | ALTA |
+|RNF-007| O site deve funcionar 24 horas por dia, todos os dias da semana | ALTA |
+|RNF-008| O site deverá atender às normas legais, tais como padrões, leis, etc | ALTA |
+|RNF-009| O site deverá ser desenvolvido na linguagem HTML5 e JavaScript | ALTA |
+|RNF-010| O site deverá ser responsivo permitindo a visualização em um dispositivos móveis de forma adequada | MÉDIA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
