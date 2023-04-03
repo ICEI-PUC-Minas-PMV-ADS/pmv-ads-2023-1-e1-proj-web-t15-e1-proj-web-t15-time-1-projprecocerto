@@ -54,6 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-010| O site deverá ser responsivo permitindo a visualização em um dispositivos móveis de forma adequada | MÉDIA |
 
 
+
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre, 12/07/23 |
