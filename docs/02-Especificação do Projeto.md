@@ -53,20 +53,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-009| O site deverá ser desenvolvido na linguagem HTML5 e JavaScript | ALTA |
 |RNF-010| O site deverá ser responsivo permitindo a visualização em um dispositivos móveis de forma adequada | MÉDIA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
@@ -77,9 +63,3 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 |05| A equipe de desenvolvedores deve ser composta de programadores sem expêriencia |
 |06| Alguns dados não poderão ser publicados por possuir dados sensíveis |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
