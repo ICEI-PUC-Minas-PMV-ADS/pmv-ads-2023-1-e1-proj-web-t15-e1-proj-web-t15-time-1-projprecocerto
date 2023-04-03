@@ -52,6 +52,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 
+
+
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O prazo para o projeto ser entregue é 25 de junho de 2023 |
