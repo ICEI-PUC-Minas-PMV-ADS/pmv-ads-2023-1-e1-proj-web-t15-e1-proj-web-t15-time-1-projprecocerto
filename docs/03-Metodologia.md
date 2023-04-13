@@ -3,6 +3,8 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
+Relação de ambiente de trabalho
+
 A equipe que desenvolveu o projeto de encontrar mercados próximos e mais baratos utilizou ferramentas de comunicação como Discord e WhatsApp para se comunicar ao longo do processo de desenvolvimento. Essas ferramentas são amplamente utilizadas para facilitar a comunicação entre equipes distribuídas geograficamente e, portanto, permitiram que a equipe colaborasse de maneira eficiente, independentemente de sua localização.
 
 O Discord é uma plataforma de comunicação que oferece uma ampla gama de recursos, como bate-papo por texto e voz, compartilhamento de tela, integrações de terceiros e salas de reuniões. Esses recursos permitiram que a equipe se comunicasse e coordenasse o trabalho em tempo real, compartilhando ideias, discutindo problemas e coordenando o processo de desenvolvimento.
