@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Relação de ambiente de trabalho
+# Relação de ambiente de trabalho
 
 A equipe que desenvolveu o projeto de encontrar mercados próximos e mais baratos utilizou ferramentas de comunicação como Discord e WhatsApp para se comunicar ao longo do processo de desenvolvimento. Essas ferramentas são amplamente utilizadas para facilitar a comunicação entre equipes distribuídas geograficamente e, portanto, permitiram que a equipe colaborasse de maneira eficiente, independentemente de sua localização.
 
