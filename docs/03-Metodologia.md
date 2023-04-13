@@ -3,7 +3,13 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A equipe que desenvolveu o projeto de encontrar mercados próximos e mais baratos utilizou ferramentas de comunicação como Discord e WhatsApp para se comunicar ao longo do processo de desenvolvimento. Essas ferramentas são amplamente utilizadas para facilitar a comunicação entre equipes distribuídas geograficamente e, portanto, permitiram que a equipe colaborasse de maneira eficiente, independentemente de sua localização.
+
+O Discord é uma plataforma de comunicação que oferece uma ampla gama de recursos, como bate-papo por texto e voz, compartilhamento de tela, integrações de terceiros e salas de reuniões. Esses recursos permitiram que a equipe se comunicasse e coordenasse o trabalho em tempo real, compartilhando ideias, discutindo problemas e coordenando o processo de desenvolvimento.
+
+Além disso, o WhatsApp é uma ferramenta de comunicação popular que permitiu à equipe manter a comunicação constante, mesmo quando estavam fora do escritório ou não tinham acesso ao Discord. O WhatsApp é uma plataforma fácil de usar que suporta conversas por texto e voz, bem como chamadas de vídeo, o que permitiu à equipe se comunicar com rapidez e eficiência.
+
+Em conjunto, o Discord e o WhatsApp forneceram à equipe um ambiente de comunicação altamente eficiente, permitindo que trabalhassem juntos de forma colaborativa, independentemente de sua localização geográfica. Além disso, a utilização dessas ferramentas contribuiu para um processo de desenvolvimento mais ágil e eficiente, permitindo que a equipe se concentrasse no trabalho em vez de se preocupar com problemas de comunicação.
 
 ## Controle de Versão
 
