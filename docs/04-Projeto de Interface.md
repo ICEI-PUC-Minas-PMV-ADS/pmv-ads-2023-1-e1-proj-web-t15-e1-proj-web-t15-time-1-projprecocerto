@@ -1,35 +1,36 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
-## User Flow
-
-![Exemplo de UserFlow](img/userflow.jpg)
+##Fluxo do usuário
 
 Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Tela - Home-Page
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A tela de cadastro apresenta duas opções são elas:
+Já é cadastrado, e ainda não é cadastrado - cadastre-se para criar um novo cadastro.
+
+![imagem_2023-04-18_195406253](https://user-images.githubusercontent.com/126032592/232922122-dc7ec943-190a-450b-8e86-63db7618b93b.png)
+
+Tela - Cadastro
+
+A tela carrinho de compras apresenta tudo o que foi adicionado no carrinho bem como as fotos dos produtos, a descrição, e o subtotal.
+
+![imagem_2023-04-18_195845933](https://user-images.githubusercontent.com/126032592/232922801-640ffa76-3d4a-4102-8e68-ecc56475977c.png)
+
+Tela - Carrinho de compras
+
+A tela de finalização apresenta endereço de entrega, a escolha da forma de pagamento, os produtos, e o resumo da compra com o seu valor.
+
+![imagem_2023-04-18_200010275](https://user-images.githubusercontent.com/126032592/232922980-717d1816-5bf3-4233-bd8d-74c72ca10131.png)
+
+Tela - Finalização da compra
+
+A tela de finalização apresenta endereço de entrega, a escolha da forma de pagamento, os produtos, e o resumo da compra com o seu valor.
+
+![imagem_2023-04-18_200537624](https://user-images.githubusercontent.com/126032592/232923640-6d619ac0-27e4-4f96-8cc1-952a7eedc604.png)
