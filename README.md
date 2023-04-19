@@ -6,6 +6,8 @@
 
 `Primeiro Semestre (E1)`
 
+![imagem_2023-04-19_135324456](https://user-images.githubusercontent.com/126032592/233145948-ffcda48c-cdbf-465b-b88a-8298a3082801.png)
+
 Projeto que está sendo desenvolvido, é uma aplicação Web para busca de preços mais justos de uma lista de compra em diferentes Supermercados,
 próximo ao usuário do App.
 
