@@ -1,13 +1,54 @@
 
 # Metodologia
+
 ### Ferramentas
 
 | Metodo | Ferramenta | Link |
 | ---         |     :---:      |     ---     |
-| Repositório | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto |
-| Gerenciamento do Projeto| Github |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/413  |
-| Wireframes | Marvel | https://marvelapp.com/signin?next=/project/6689238 |
-| Comunicação | Teams | https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:--Urwa4a8vD9TZLtgHfFZW_KwwAliUsDsTlQMmldgug1@thread.tacv2&ctx=channel |
+| Repositório | Github | <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto">Link Github</a> |
+| Gerenciamento do Projeto| Github |  <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/413">Link Github</a>  |
+| Wireframes | Marvel | <a href="https://marvelapp.com/signin?next=/project/6689238">Link Marvel</a> |
+| Comunicação | Teams | <a href="https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:--Urwa4a8vD9TZLtgHfFZW_KwwAliUsDsTlQMmldgug1@thread.tacv2&ctx=channel">Link Teams</a> |
+
+## Processo
+### Product backlog
+
+Documentação de contexto, Especificação do projeto, Metodologia, Projeto de interface, template do site, programação de funcionalidade,  Plano de teste de software e Registro de teste de software.
+
+### Sprint 1
+
+⦁ Documentação de Contexto:
+
+     Problema	
+     Objetivos	
+     Justificativa	
+     Público alvo
+	
+⦁ Especificação do Projeto:
+
+     Personas	
+     Histórias de usuários	
+     Requisitos do Projeto	
+     Requisitos Funcionais	
+     Requisitos não funcionais	
+     Restrições
+     
+### Planejamento
+
+![imagem_2023-04-19_100126357](https://user-images.githubusercontent.com/126032592/233082807-46670a21-06ce-4b37-b756-07b368ec4b1a.png)
+
+### Execução
+| Tarefa | Responsável |
+| ---         |     :---:      | 
+| Documentação de texto | Felipe Joseph, Gabriel Yan, Pedro Henrique |
+| Especificação do projeto | Simon Henrique, Tatiana Martins, Caio Césa |
+
+### Evidências
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a>
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a>
+
 
 # Relação de ambiente de trabalho
 
@@ -27,7 +68,7 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-     ⦁Scrum Master: Tatiana Martins Loureiro
+      ⦁Scrum Master: Tatiana Martins Loureiro
 
       ⦁Product Owner: Felipe Joseph Siqueira de Almeida 
 
