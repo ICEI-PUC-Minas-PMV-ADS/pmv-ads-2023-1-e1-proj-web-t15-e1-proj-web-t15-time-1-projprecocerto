@@ -35,7 +35,8 @@ A equipe está organizada da seguinte maneira:
 
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está
-disponível através da URL https://trello.com/b/0nF6IYyk/gerenciamento-do-projeto e é apresentado, no estado atual, na imagem abaixo.
+disponível através da URL https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/413/views/1 e é apresentado, no estado atual, na imagem abaixo.
 
-![trello](https://user-images.githubusercontent.com/126032592/232038499-8db4817d-f1f0-409d-8de3-859b2b119ca0.png)
+![imagem_2023-04-19_100126357](https://user-images.githubusercontent.com/126032592/233082807-46670a21-06ce-4b37-b756-07b368ec4b1a.png)
+
 
