@@ -1,7 +1,13 @@
 
 # Metodologia
+### Ferramentas
 
-
+| Metodo | Ferramenta | Link |
+| ---         |     :---:      |     ---     |
+| Repositório | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto |
+| Gerenciamento do Projeto| Github |  https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/413  |
+| Wireframes | Marvel | https://marvelapp.com/signin?next=/project/6689238 |
+| Comunicação | Teams | https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:--Urwa4a8vD9TZLtgHfFZW_KwwAliUsDsTlQMmldgug1@thread.tacv2&ctx=channel |
 
 # Relação de ambiente de trabalho
 
