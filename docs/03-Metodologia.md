@@ -49,7 +49,49 @@ Documentação de contexto, Especificação do projeto, Metodologia, Projeto de 
 
 ⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a>
 
+### Sprint 2
 
+⦁ Metodologia:
+
+     Equipe de trabalho	
+     Ferramentas	
+     Processo	
+     Product backlog
+     Sprint 1
+     Planejamento
+     Execução
+     Evidências
+     Sprint 2
+     Planejamento
+     Execução
+     Evidências
+	
+⦁ Projeto de interface:
+
+     Fluxo do usuário	
+     Wireframes	
+     Tela - Home -Page	
+     Tela - Cadastro	
+     Tela - Carrinho de compras	
+     Tela - Finalização da compra
+     
+### Planejamento
+
+![imagem_2023-04-19_100126357](https://user-images.githubusercontent.com/126032592/233082807-46670a21-06ce-4b37-b756-07b368ec4b1a.png)
+
+### Execução
+
+| Tarefa | Responsável |
+| ---         |     :---:      | 
+| Metodologia | Simon Henrique, Caio César, Pedro Henrique |
+| Projeto de interface | Felipe Joseph, Tatiana Martins, Gabriel Yan |
+
+### Evidências
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/03-Metodologia.md">Metodologia</a>
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/04-Projeto%20de%20Interface.md">Projeto de interface</a>
+     
 # Relação de ambiente de trabalho
 
 A equipe que desenvolveu o projeto de encontrar mercados próximos e mais baratos utilizou ferramentas de comunicação como Discord e WhatsApp para se comunicar ao longo do processo de desenvolvimento. Essas ferramentas são amplamente utilizadas para facilitar a comunicação entre equipes distribuídas geograficamente e, portanto, permitiram que a equipe colaborasse de maneira eficiente, independentemente de sua localização.
