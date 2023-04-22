@@ -3,11 +3,11 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-##Fluxo do usuário
+## Fluxo do usuário (User-Flow)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+Fluxo de usuário ou (User Flow), é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe, Abaixo está o exemplo do User-Flow inicial deste projeto.
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/00565741522d2a12de873e123a832cb0f48cbb1f/docs/img/User_Flow.drawio.png
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/5c8ab95b508cd349846a78fbbf5007175b5319e6/docs/img/User_Flow.drawio.png" width="550px"/>
 
 
 ## Wireframes
