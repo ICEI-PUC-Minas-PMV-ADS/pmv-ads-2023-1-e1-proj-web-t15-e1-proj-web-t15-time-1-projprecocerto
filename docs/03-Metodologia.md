@@ -35,7 +35,7 @@ Documentação de contexto, Especificação do projeto, Metodologia, Projeto de 
      
 ### Planejamento
 
-![imagem_2023-04-19_100126357](https://user-images.githubusercontent.com/126032592/233082807-46670a21-06ce-4b37-b756-07b368ec4b1a.png)
+![image](https://user-images.githubusercontent.com/74187849/233843344-d99dc29f-390a-4304-aedd-9e443e281839.png)
 
 ### Execução
 | Tarefa | Responsável |
