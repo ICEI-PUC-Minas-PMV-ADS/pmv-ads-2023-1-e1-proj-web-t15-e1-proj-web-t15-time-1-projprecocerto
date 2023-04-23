@@ -6,7 +6,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Fluxo do usuário (User-Flow)
 
 Fluxo de usuário ou (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto aos membros da equipe. 
-Abaixo está o exemplo do User-Flow inicial deste projeto. O fluxo interativo pode ser acessado através deste link: https://marvelapp.com/project/6689238  
+Abaixo está o exemplo do User-Flow inicial deste projeto. O fluxo interativo pode ser acessado através deste link: [https://marvelapp.com/project/6689238 ](https://marvelapp.com/prototype/7724d55/screen/91379128) 
 Importante salientar que para acessar ao protótipo interativo o usuário precisa já ter criado uma conta na plataforma https://marvelapp.com/. 
 
 
