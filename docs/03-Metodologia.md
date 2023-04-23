@@ -7,7 +7,7 @@
 | ---         |     :---:      |     ---     |
 | Repositório | Github | <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto">Link Github</a> |
 | Gerenciamento do Projeto| Github |  <a href="https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/413">Link Github</a>  |
-| Wireframes | Marvel | <a href="https://marvelapp.com/signin?next=/project/6689238">Link Marvel</a> |
+| Wireframes | Marvel | <a href="https://marvelapp.com/prototype/7724d55/screen/91379128">Link Marvel</a> |
 | Comunicação | Teams | <a href="https://teams.microsoft.com/_#/school/conversations/Geral?threadId=19:--Urwa4a8vD9TZLtgHfFZW_KwwAliUsDsTlQMmldgug1@thread.tacv2&ctx=channel">Link Teams</a> |
 
 ## Processo
