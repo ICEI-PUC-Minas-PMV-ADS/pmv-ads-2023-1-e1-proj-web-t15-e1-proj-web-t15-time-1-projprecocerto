@@ -94,105 +94,100 @@ Documentação de contexto, Especificação do projeto, Metodologia, Projeto de 
 
 ### Sprint 3
 
-⦁ Documentação de Contexto:
+⦁ Template padrão do Site:
 
-     Problema	
-     Objetivos	
-     Justificativa	
-     Público alvo
+     ...	
+     ...	
+     ...	
+     ...
 	
-⦁ Especificação do Projeto:
+⦁ Programação de Funcionalidades:
 
-     Personas	
-     Histórias de usuários	
-     Requisitos do Projeto	
-     Requisitos Funcionais	
-     Requisitos não funcionais	
-     Restrições
-     
+     ...	
+     ...	
+     ...	
+     ...	
+     	     
 ### Planejamento
 
-![image](https://user-images.githubusercontent.com/74187849/233843344-d99dc29f-390a-4304-aedd-9e443e281839.png)
+...
 
 ### Execução
 | Tarefa | Responsável |
 | ---         |     :---:      | 
-| Documentação de texto | Felipe Joseph, Gabriel Yan, Pedro Henrique |
-| Especificação do projeto | Simon Henrique, Tatiana Martins, Caio Césa |
+| ... | ..., ..., ... |
+| ... | ..., ..., ... |
 
 ### Evidências
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a>
+⦁ <a href="">Template padrão do Site</a>
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a>
+⦁ <a href="">Programação de Funcionalidades</a>
 
 ### Sprint 4
 
-⦁ Documentação de Contexto:
+⦁ ... :
 
-     Problema	
-     Objetivos	
-     Justificativa	
-     Público alvo
+     ...	
+     ...	
+     ...	
+     ...
 	
-⦁ Especificação do Projeto:
+⦁ ... :
 
-     Personas	
-     Histórias de usuários	
-     Requisitos do Projeto	
-     Requisitos Funcionais	
-     Requisitos não funcionais	
-     Restrições
-     
+     ...	
+     ...	
+     ...	
+     ...	
+     	     
 ### Planejamento
 
-![image](https://user-images.githubusercontent.com/74187849/233843344-d99dc29f-390a-4304-aedd-9e443e281839.png)
+...
 
 ### Execução
 | Tarefa | Responsável |
 | ---         |     :---:      | 
-| Documentação de texto | Felipe Joseph, Gabriel Yan, Pedro Henrique |
-| Especificação do projeto | Simon Henrique, Tatiana Martins, Caio Césa |
+| ... | ..., ..., ... |
+| ... | ..., ..., ... |
 
 ### Evidências
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a>
+⦁ <a href="">...</a>
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a>
+⦁ <a href="">...</a>
+
 
 ### Sprint 5
 
-⦁ Documentação de Contexto:
+⦁ ... :
 
-     Problema	
-     Objetivos	
-     Justificativa	
-     Público alvo
+     ...	
+     ...	
+     ...	
+     ...
 	
-⦁ Especificação do Projeto:
+⦁ ... :
 
-     Personas	
-     Histórias de usuários	
-     Requisitos do Projeto	
-     Requisitos Funcionais	
-     Requisitos não funcionais	
-     Restrições
-     
+     ...	
+     ...	
+     ...	
+     ...	
+     	     
 ### Planejamento
 
-![image](https://user-images.githubusercontent.com/74187849/233843344-d99dc29f-390a-4304-aedd-9e443e281839.png)
+...
 
 ### Execução
 | Tarefa | Responsável |
 | ---         |     :---:      | 
-| Documentação de texto | Felipe Joseph, Gabriel Yan, Pedro Henrique |
-| Especificação do projeto | Simon Henrique, Tatiana Martins, Caio Césa |
+| ... | ..., ..., ... |
+| ... | ..., ..., ... |
 
 ### Evidências
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/01-Documenta%C3%A7%C3%A3o%20de%20Contexto.md">Documentação de Contexto</a>
+⦁ <a href="">...</a>
 
-⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Especificação do Projeto</a>
+⦁ <a href="">...</a>
      
 # Relação de ambiente de trabalho
 
