@@ -18,7 +18,7 @@ próximo ao usuário do App.
 * Simon Henrique Souza Capanema
 * Gabriel Yan Moreira Laignier
 * Pedro Henrique Gomes de Souza
-* Tatiana Loureiro
+* Tatiana Martins Loureiro
 
 ## Orientador
 
