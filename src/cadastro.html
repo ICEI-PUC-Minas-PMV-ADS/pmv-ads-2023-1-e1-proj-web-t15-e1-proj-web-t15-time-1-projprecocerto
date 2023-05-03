@@ -13,7 +13,7 @@
 	</header>
 	<main>
 		<div class="container">
-			<div class="form" id ="cadastro">
+			<div class="form" id="cadastro">
 				<h2>Ainda não é cadastrado? Cadastre-se </h2>
 				<form>
 					<label for="nome">Nome:</label>
@@ -25,7 +25,15 @@
 					<label for="senha-confirmacao">Confirme a senha:</label>
 					<input type="password" id="senha-confirmacao" name="senha-confirmacao"
 						placeholder="Confirme sua senha"><br>
-					<button class="btn-cadastrar">Cadastrar</button>
+					<button class="btn-cadastrar" id="btn-cadastrar">Cadastrar</button>
+					<script>
+						const btnCadastrar = document.getElementById("btn-cadastrar");
+
+						btnCadastrar.addEventListener("click", function () {
+							alert("Cadastro realizado com sucesso!");
+						});
+					</script>
+
 				</form>
 			</div>
 			<div class="form" id="login">
