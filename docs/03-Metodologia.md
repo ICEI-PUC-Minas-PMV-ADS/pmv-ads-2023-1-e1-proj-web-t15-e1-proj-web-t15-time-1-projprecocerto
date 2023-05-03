@@ -13,7 +13,13 @@
 ## Processo
 ### Product backlog
 
-Documentação de contexto, Especificação do projeto, Metodologia, Projeto de interface, template do site, programação de funcionalidade,  Plano de teste de software e Registro de teste de software.
+| Sprint   | Etapa na disciplina                                                                                                                                                            | Entregáveis                                                                                                                         |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint 1 | [Etapa 1 - Análise do problema e especificação de requisitos](https://pucminas.instructure.com/courses/150446/pages/etapa-1-analise-do-problema-e-especificacao-de-requisitos) | <ul><li>Documentação de Contexto</li><li>Especificação do Projeto</li><li>Apresentação do Projeto</li> </ul>                        |
+| Sprint 2 | [Etapa 2 - Projeto da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-2-projeto-da-solucao)                                                               | <ul><li>Metodologia</li><li>Projeto de Interface</li> </ul>                               |
+| Sprint 3 | [Etapa 3 - Desenvolvimento da solução - Parte 1](https://pucminas.instructure.com/courses/150446/pages/etapa-3-desenvolvimento-da-solucao-parte-1)                             | <ul><li>Template padrão do Site</li><li>Programação de Funcionalidades</li></ul>                                                    |
+| Sprint 4 | [Etapa 4 - Desenvolvimento da solução - Parte 2](https://pucminas.instructure.com/courses/150446/pages/etapa-4-desenvolvimento-da-solucao-parte-2)                             | <ul><li>Programação das demais funcionalidades</li><li>Plano de Testes de Software</li><li>Registro de Testes de Software</li></ul> |
+| Sprint 5 | [Etapa 5 - Implantação e apresentação da solução](https://pucminas.instructure.com/courses/150446/pages/etapa-5-implantacao-e-apresentacao-da-solucao)                         | <ul><li>Implantação da Solução</li><li>Vídeo de demonstração da Solução</li></ul>                                                   |
 
 ### Sprint 1
 
@@ -92,102 +98,6 @@ Documentação de contexto, Especificação do projeto, Metodologia, Projeto de 
 
 ⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/04-Projeto%20de%20Interface.md">Projeto de interface</a>
 
-### Sprint 3
-
-⦁ Template padrão do Site:
-
-     ...	
-     ...	
-     ...	
-     ...
-	
-⦁ Programação de Funcionalidades:
-
-     ...	
-     ...	
-     ...	
-     ...	
-     	     
-### Planejamento
-
-...
-
-### Execução
-| Tarefa | Responsável |
-| ---         |     :---:      | 
-| ... | ..., ..., ... |
-| ... | ..., ..., ... |
-
-### Evidências
-
-⦁ <a href="">Template padrão do Site</a>
-
-⦁ <a href="">Programação de Funcionalidades</a>
-
-### Sprint 4
-
-⦁ ... :
-
-     ...	
-     ...	
-     ...	
-     ...
-	
-⦁ ... :
-
-     ...	
-     ...	
-     ...	
-     ...	
-     	     
-### Planejamento
-
-...
-
-### Execução
-| Tarefa | Responsável |
-| ---         |     :---:      | 
-| ... | ..., ..., ... |
-| ... | ..., ..., ... |
-
-### Evidências
-
-⦁ <a href="">...</a>
-
-⦁ <a href="">...</a>
-
-
-### Sprint 5
-
-⦁ ... :
-
-     ...	
-     ...	
-     ...	
-     ...
-	
-⦁ ... :
-
-     ...	
-     ...	
-     ...	
-     ...	
-     	     
-### Planejamento
-
-...
-
-### Execução
-| Tarefa | Responsável |
-| ---         |     :---:      | 
-| ... | ..., ..., ... |
-| ... | ..., ..., ... |
-
-### Evidências
-
-⦁ <a href="">...</a>
-
-⦁ <a href="">...</a>
      
 # Relação de ambiente de trabalho
 
