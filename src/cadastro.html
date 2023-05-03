@@ -26,13 +26,28 @@
 					<input type="password" id="senha-confirmacao" name="senha-confirmacao"
 						placeholder="Confirme sua senha" required><br>
 					<button class="btn-cadastrar" id="btn-cadastrar">Cadastrar</button>
-					<script>
-						const btnCadastrar = document.getElementById("btn-cadastrar");
+					<<script>
+						const formCadastro = document.getElementById("form-cadastro");
 
-						btnCadastrar.addEventListener("click", function () {
-							alert("Cadastro realizado com sucesso!");
+						formCadastro.addEventListener("submit", function(event) {
+						const camposObrigatorios = formCadastro.querySelectorAll("[required]");
+						let todosCamposPreenchidos = true;
+
+						camposObrigatorios.forEach(function(campo) {
+						if (!campo.value) {
+						todosCamposPreenchidos = false;
+						}
 						});
-					</script>
+
+						if (!todosCamposPreenchidos) {
+						event.preventDefault(); // evita que o formulário seja enviado
+						alert("Por favor, preencha todos os campos obrigatórios.");
+						} else {
+						alert("Cadastro realizado com sucesso!");
+						}
+						});
+						</script>
+
 
 				</form>
 			</div>
@@ -41,9 +56,11 @@
 					<h2>Já é Cadastrado ? Faça Login </h2>
 					<form class="formulario-login">
 						<label for="login-email">E-mail:</label>
-						<input type="email" id="login-email" name="login-email" placeholder="Digite seu email" required><br>
+						<input type="email" id="login-email" name="login-email" placeholder="Digite seu email"
+							required><br>
 						<label for="login-senha">Senha:</label>
-						<input type="password" id="login-senha" name="login-senha" placeholder="Digite sua senha" required><br>
+						<input type="password" id="login-senha" name="login-senha" placeholder="Digite sua senha"
+							required><br>
 						<button class="btn-entrar">Entrar</button>
 					</form>
 			</div>
