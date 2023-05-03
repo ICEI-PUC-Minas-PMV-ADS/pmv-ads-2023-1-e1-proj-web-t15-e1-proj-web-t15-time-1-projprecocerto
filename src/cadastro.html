@@ -3,7 +3,7 @@
 
 <head>
 	<title>Cadastro - Preço </title>
-    <style>
+	<style>
 		body {
 			margin: 0;
 			padding: 0;
@@ -31,10 +31,10 @@
 		}
 
 		main {
-			padding-bottom: 80px; 
+			padding-bottom: 80px;
 		}
-        
-        .container {
+
+		.container {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
@@ -43,7 +43,7 @@
 			height: 100vh;
 		}
 
-        .form {
+		.form {
 			width: 400px;
 			background-color: #fff;
 			padding: 40px;
@@ -51,7 +51,7 @@
 			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 		}
 
-        .form h2 {
+		.form h2 {
 			font-size: 24px;
 			margin-bottom: 20px;
 			text-align: center;
@@ -65,7 +65,8 @@
 			width: 100%;
 			height: 100vh;
 		}
-        .form input {
+
+		.form input {
 			display: block;
 			width: 100%;
 			padding: 10px;
@@ -84,7 +85,7 @@
 		}
 
 		.form button {
-            display: block;
+			display: block;
 			width: 100%;
 			padding: 10px;
 			border: none;
@@ -104,11 +105,11 @@
 			background-color: green;
 		}
 
-        .form button:hover {
+		.form button:hover {
 			background-color: #111;
 		}
 
-        .form .form-link {
+		.form .form-link {
 			display: block;
 			text-align: center;
 			margin-top: 20px;
@@ -123,55 +124,68 @@
 		}
 
 		footer {
-			background-color: #8ff591;
-			color: #fff;
+			background-color: #333;
+			color: #8ff591;
 			text-align: center;
+			font-size: 14px;
 			padding: 20px;
-			position: fixed; 
 			bottom: 0;
 			left: 0;
-			width: 100%;
-			height: 80px; 
+			right: 0;
+		}
+
+		footer.sticky {
+			position: sticky;
+			bottom: -100px;
+		}
+
+		body::after {
+			content: "";
+			display: block;
+			height: 100px;
+			/* altura do footer */
 		}
 	</style>
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.png" alt="Logo do Preço Certo">
-        <h1>Preço Certo</h1>
-    </header>
-    <main>
-    <div class="container">
-        <div class="form">
-            <h2>Ainda não é cadastrado? Cadastre-se !</h2>
-            <form>
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"><br>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Digite seu email"><br>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br>
-                <label for="senha-confirmacao">Confirme a senha:</label>
-                <input type="password" id="senha-confirmacao" name="senha-confirmacao" placeholder="Confirme sua senha"><br>
-                <button class="btn-cadastrar">Cadastrar</button>
-            </form>
-    </div>
-    <div class="form">
-        <section>
-            <h2>Já é Cadastrado ? Faça cadastro !</h2>
-            <form class="formulario-login">
-                <label for="login-email">E-mail:</label>
-                <input type="email" id="login-email" name="login-email" placeholder="Digite seu email"><br>
-                <label for="login-senha">Senha:</label>
-                <input type="password" id="login-senha" name="login-senha" placeholder="Digite sua senha"><br>
-                <button class="btn-entrar">Entrar</button>
-            </form>
-    </div>
-</main>
-<footer>
-    <p>Av. Dom José Gaspas, 500 - Coração Eucarístico - Belo Horizonte - MG, 30.535-901</p>
-    <p>Fale Conosco | ajuda-precocerto@precocerto.com.br</p>
-</footer>
+	<header>
+		<img src="img/logo.png" alt="Logo do Preço Certo">
+		<h1>Preço Certo</h1>
+	</header>
+	<main>
+		<div class="container">
+			<div class="form">
+				<h2>Ainda não é cadastrado? Cadastre-se !</h2>
+				<form>
+					<label for="nome">Nome:</label>
+					<input type="text" id="nome" name="nome" placeholder="Digite seu nome completo"><br>
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" placeholder="Digite seu email"><br>
+					<label for="senha">Senha:</label>
+					<input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br>
+					<label for="senha-confirmacao">Confirme a senha:</label>
+					<input type="password" id="senha-confirmacao" name="senha-confirmacao"
+						placeholder="Confirme sua senha"><br>
+					<button class="btn-cadastrar">Cadastrar</button>
+				</form>
+			</div>
+			<div class="form">
+				<section>
+					<h2>Já é Cadastrado ? Faça cadastro !</h2>
+					<form class="formulario-login">
+						<label for="login-email">E-mail:</label>
+						<input type="email" id="login-email" name="login-email" placeholder="Digite seu email"><br>
+						<label for="login-senha">Senha:</label>
+						<input type="password" id="login-senha" name="login-senha" placeholder="Digite sua senha"><br>
+						<button class="btn-entrar">Entrar</button>
+					</form>
+			</div>
+	</main>
+	<footer class="sticky">
+		<p>Av. Dom José Gaspas, 500 - Coração Eucarístico - Belo Horizonte - MG, 30.535-901</p>
+		<p>Fale Conosco | ajuda-precocerto@precocerto.com.br</p>
+	</footer>
 </body>
+
 </html>
