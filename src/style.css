@@ -149,3 +149,11 @@ body::after {
     display: block;
     height: 100px;
 }
+
+@media (max-width: 600px) {
+    .cadastro, .login {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
