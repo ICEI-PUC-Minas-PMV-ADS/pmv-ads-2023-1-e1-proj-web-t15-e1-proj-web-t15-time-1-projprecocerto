@@ -125,7 +125,7 @@
                                     <label for="txtSenha">Senha</label>
                                 </div>
                                 <div class="form-floating mb-3 col-lg-6">
-                                    <input class="form-control" id="txtConfirmacaoSenha" placeholder=" " />
+                                    <input class="form-control" type="password" id="txtConfirmacaoSenha" placeholder=" " />
                                     <label class="form-label" for="txtConfirmacaoSenha">Confirmação da Senha</label>
                                 </div>
                             </fieldset>
@@ -139,7 +139,7 @@
                         </label>
                     </div>
                     <div class="mb-3 text-left">
-                        <input type="button" value="Criar meu cadastro" class="btn btn-lg btn-success" onclick="criar()"/>
+                        <input type="button" value="Criar meu cadastro" class="btn btn-lg btn-success" onclick="cadastrar()" onclick="criar()"/>
                     </div>
                 </form>
 
@@ -165,6 +165,41 @@
     </div>
 </body>
 <script>
+
+function cadastrar() {
+        var nome = document.getElementById('txtNome').value;
+        var cpf = document.getElementById('txtCPF').value;
+        var email = document.getElementById('txtEmail').value;
+
+        if (nome && cpf && email) {
+            var usuario = {
+                nome: nome,
+                cpf: cpf,
+                email: email
+            };
+
+            if (typeof(Storage) !== 'undefined') {
+                var registros = JSON.parse(localStorage.getItem('registros')) || [];
+
+                registros.push(usuario);
+
+                localStorage.setItem('registros', JSON.stringify(registros));
+
+                alert('Usuário cadastrado com sucesso!');
+
+                document.getElementById('txtNome').value = '';
+                document.getElementById('txtCPF').value = '';
+                document.getElementById('txtEmail').value = '';
+
+                ler();
+            } else {
+                alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
+            }
+        } else {
+            alert('Por favor, preencha todos os campos do formulário.');
+        }
+    }
+
     function criar() {
         var nome = document.getElementById('txtNome').value;
         var cpf = document.getElementById('txtCPF').value;
@@ -194,12 +229,16 @@
     }
 
     function ler() {
-        
         if (typeof(Storage) !== 'undefined') {
-            
-            var registros = JSON.parse(localStorage.getItem('registros')) || []; 
-            var tabela = document.getElementById('tabelaRegistros');           
+
+            var registros = JSON.parse(localStorage.getItem('registros')) || [];
+
+            var tabela = document.getElementById('tabelaRegistros');
+
             tabela.innerHTML = '';
+
+            var cabecalho = tabela.createTHead().insertRow();
+            cabecalho.innerHTML = '<th>Nome</th><th>CPF</th><th>Email</th><th>Ações</th>';
 
             for (var i = 0; i < registros.length; i++) {
                 var registro = registros[i];
@@ -207,21 +246,25 @@
                 var linha = tabela.insertRow();
 
                 var colunaNome = linha.insertCell();
-                colunaNome.innerHTML = registro.nome;
+                colunaNome.textContent = registro.nome;
 
                 var colunaCPF = linha.insertCell();
-                colunaCPF.innerHTML = registro.cpf;
+                colunaCPF.textContent = registro.cpf;
 
                 var colunaEmail = linha.insertCell();
-                colunaEmail.innerHTML = registro.email;
+                colunaEmail.textContent = registro.email;
 
                 var colunaAcoes = linha.insertCell();
-                colunaAcoes.innerHTML = '<button onclick="deletarRegistro(' + i + ')" class="btn btn-danger btn-sm">Excluir</button>';
+                colunaAcoes.innerHTML = `
+                    <button onclick="deletarRegistro(${i})" class="btn btn-danger btn-sm">Excluir</button>
+
+                `;
             }
         } else {
             alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
         }
     }
+
 
     function deletarRegistro(index) {
         if (typeof(Storage) !== 'undefined') {
