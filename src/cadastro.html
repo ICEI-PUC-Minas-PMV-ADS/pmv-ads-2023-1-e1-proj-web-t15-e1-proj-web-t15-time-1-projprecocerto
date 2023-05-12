@@ -170,30 +170,20 @@
         var cpf = document.getElementById('txtCPF').value;
         var email = document.getElementById('txtEmail').value;
 
-        // Verifique se os campos estão preenchidos
         if (nome !== '' && cpf !== '' && email !== '') {
-            // Verifique se o armazenamento local é suportado pelo navegador
             if (typeof(Storage) !== 'undefined') {
-                // Obtenha os registros existentes ou inicialize um array vazio
                 var registros = JSON.parse(localStorage.getItem('registros')) || [];
 
-                // Crie um novo registro
                 var novoRegistro = {
                     nome: nome,
                     cpf: cpf,
                     email: email
                 };
 
-                // Adicione o novo registro ao array de registros
                 registros.push(novoRegistro);
-
-                // Armazene o array de registros atualizado no armazenamento local
                 localStorage.setItem('registros', JSON.stringify(registros));
-
-                // Limpe os campos do formulário
                 limparCampos();
 
-                // Exiba uma mensagem de sucesso
                 alert('Registro criado com sucesso!');
             } else {
                 alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
