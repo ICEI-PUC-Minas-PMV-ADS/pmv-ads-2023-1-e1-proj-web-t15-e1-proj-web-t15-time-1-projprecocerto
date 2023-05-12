@@ -143,10 +143,70 @@
                             onclick="window.location.href='./login.html'" />
                     </div>
                 </form>
+                <button class="btn btn-primary" onclick="ler()">Usúarios</button>
+                <table id="tabelaRegistros" class="table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>CPF</th>
+                            <th>Email</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
             </div>
         </main>
     </div>
 </body>
+<script>
+
+    function ler() {
+        
+        if (typeof(Storage) !== 'undefined') {
+            
+            var registros = JSON.parse(localStorage.getItem('registros')) || []; 
+            var tabela = document.getElementById('tabelaRegistros');           
+            tabela.innerHTML = '';
+
+            for (var i = 0; i < registros.length; i++) {
+                var registro = registros[i];
+
+                var linha = tabela.insertRow();
+
+                var colunaNome = linha.insertCell();
+                colunaNome.innerHTML = registro.nome;
+
+                var colunaCPF = linha.insertCell();
+                colunaCPF.innerHTML = registro.cpf;
+
+                var colunaEmail = linha.insertCell();
+                colunaEmail.innerHTML = registro.email;
+
+                var colunaAcoes = linha.insertCell();
+                colunaAcoes.innerHTML = '<button onclick="deletarRegistro(' + i + ')" class="btn btn-danger btn-sm">Excluir</button>';
+            }
+        } else {
+            alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
+        }
+    }
+
+    function deletarRegistro(index) {
+        if (typeof(Storage) !== 'undefined') {
+            var registros = JSON.parse(localStorage.getItem('registros')) || [];
+            registros.splice(index, 1);
+
+            localStorage.setItem('registros', JSON.stringify(registros));
+            ler();
+            alert('Registro excluído com sucesso!');
+        } else {
+            alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
+        }
+    }
+</script>
 
 <footer class="border-top text-muted bg-light">
     <div class="container">
