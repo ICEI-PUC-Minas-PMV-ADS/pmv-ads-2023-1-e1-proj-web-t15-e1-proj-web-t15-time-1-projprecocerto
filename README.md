@@ -34,7 +34,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/02-Especificação do Projeto.md"> Especificação do Projeto</a></li>
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
-<li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
+<li><a href="[docs/04-Projeto de Interface.md](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/04-Projeto%20de%20Interface.md)"> Projeto de Interface</a></li>
 <li><a href="docs/05-Template padrão do Site.md"> Template padrão do Site</a></li>
 <li><a href="docs/06-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/07-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
