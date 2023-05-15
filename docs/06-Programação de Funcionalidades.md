@@ -1,7 +1,7 @@
 # Programação de Funcionalidades
 
 
-Nesta sessão apresentamos as funcionalidades que foram implementadas, e os requisitos que foram contemplados na forma de suas funcionalidades.
+Nesta seção apresentamos as funcionalidades que foram implementadas, e os requisitos que foram contemplados na forma de suas funcionalidades.
 Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3. As funcionalidades serão apresentadas em forma de estrutura de dados.
 
 
