@@ -124,10 +124,13 @@ Atendendo as funciolanalidades proposta no Requisitos Funcionais, conforme abaix
 
 ### Execução
 
-| Tarefa | Responsável |
-| ---         |     :---:      | 
-| Metodologia | Simon Henrique, Caio César, Pedro Henrique |
-| Projeto de interface | Felipe Joseph, Tatiana Martins, Gabriel Yan |
+|  Tarefa  | Responsável  |
+|----------|--------------|
+|Tela-Home Page|Simon Henrique, Felipe Joseph|
+|Tela-Cadastro|Pedro Henrique|
+|Tela-login|Tatiana Martins|
+|Tela-Carrinho|Gabriel Yan|
+|Tela-Usuario|Simon Henrique|
 
 ### Evidências
 
