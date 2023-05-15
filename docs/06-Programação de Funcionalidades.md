@@ -14,7 +14,7 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 | RF - 03   | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média     |
 
 
-#Header 
+ 
 
 
 
