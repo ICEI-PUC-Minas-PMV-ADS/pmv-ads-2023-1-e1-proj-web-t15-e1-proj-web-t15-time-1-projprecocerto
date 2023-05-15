@@ -5,7 +5,7 @@ Nesta sessão apresentamos as funcionalidades que foram implementadas, e os requ
 Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3. As funcionalidades serão apresentadas em forma de estrutura de dados.
 
 
-## Funcionalidades priorizadas nessa SPRINT
+## Funcionalidades priorizadas na SPRINT 3
 
 | ID | Descrição | Prioridade |
 | :---:         |     ---      |          :---: |
