@@ -102,13 +102,15 @@
 
 ⦁ Template padrão do Site:
 
-	Tela Home
-	Tela de Cadastro
-	Tela de login
+	Tela-Home page
+	Tela-Cadastro
+	Tela-login
+	Tela-Carrinho
+	Tela-Usuario
 	
-⦁ Programação de Funcionalidades:
+⦁ Programação de Funcionalidades :
 
-Atendendo as funciolanalidades proposta no Requisitos Funcionais, conforme abaixo:
+Atendendo as funcionalidades  proposta no Requisitos Funcionais, conforme abaixo:
 | ID | Descrição | Prioridade |
 | ---         |     ---      |         :---: |
 | RF-01   | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
