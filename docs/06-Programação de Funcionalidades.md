@@ -9,9 +9,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 | ID | Descrição | Prioridade |
 | :---:         |     ---      |          :---: |
-| RF - 01 | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
-| RF - 02 | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
-| RF - 03 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média     |
+| RF-01 | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
+| RF-02 | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
+| RF-03 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média     |
 
 
  
