@@ -288,24 +288,24 @@ function cadastrar() {
 #html
 ~~~~html
 <main class="flex-fill">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-5">
-                        <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
-                            <div class="input-group input-group-sm">
-                                <input type="search" class="form-control" id="search-bar" placeholder="Busque aqui seu produto">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-7">
-                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                            <form class="d-inline-block">
-                                <select class="form-select form-select-sm">
-                                    <option>Ordenar pelo nome</option>
-                                    <option>Ordenar pelo menor preço</option>
-                                    <option>Ordenar pelo maior preço</option>
-                                </select>
-                            </form>
+   <div class="container">
+       <div class="row">
+           <div class="col-12 col-md-5">
+               <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
+                   <div class="input-group input-group-sm">
+                       <input type="search" class="form-control" id="search-bar" placeholder="Busque aqui seu produto">
+                   </div>
+               </form>
+           </div>
+           <div class="col-12 col-md-7">
+               <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                   <form class="d-inline-block">
+                       <select class="form-select form-select-sm">
+                           <option>Ordenar pelo nome</option>
+                           <option>Ordenar pelo menor preço</option>
+                           <option>Ordenar pelo maior preço</option>
+                       </select>
+                   </form>
   ~~~~                        
 #JavaScript                          
 ~~~~javascript
