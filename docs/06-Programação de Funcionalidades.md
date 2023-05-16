@@ -19,6 +19,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 
 ## Login
+
+![Captura de tela 2023-05-14 203251](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/1f7dcdc6-065a-4150-bee1-54b40d103ec0)
+
 #html
 ~~~~html
 <body>
@@ -63,6 +66,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 ~~~~
 
 ## Cadastro
+
+![Captura de tela 2023-05-14 203217](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/fd158737-4c97-4ad1-8106-71e83f4dcc50)
+
 #html
 ~~~~html
 <body>
@@ -276,6 +282,9 @@ function cadastrar() {
     }
 ~~~~
 ## Barra de Busca e Filtro de Pesquisa
+
+![Captura de tela 2023-05-14 203251](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/1f7dcdc6-065a-4150-bee1-54b40d103ec0)
+
 #html
 ~~~~html
 <main class="flex-fill">
