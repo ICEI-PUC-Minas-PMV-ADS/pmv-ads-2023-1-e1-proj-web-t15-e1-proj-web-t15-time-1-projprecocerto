@@ -29,6 +29,12 @@ A tela carrinho de compras apresenta tudo o que foi adicionado no carrinho bem c
 
 ![imagem_2023-04-18_195845933](https://user-images.githubusercontent.com/126032592/232922801-640ffa76-3d4a-4102-8e68-ecc56475977c.png)
 
+Tela - Login
+
+A tela de Login possiblilita que o usuário inicie secessão com sua conta no site.
+
+![imagem_2023-05-17_100700706](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/f60c49a4-4efa-4496-8d3e-37b4ad38068b)
+
 Tela - Carrinho de compras
 
 A tela de finalização apresenta endereço de entrega, a escolha da forma de pagamento, os produtos, e o resumo da compra com o seu valor.
