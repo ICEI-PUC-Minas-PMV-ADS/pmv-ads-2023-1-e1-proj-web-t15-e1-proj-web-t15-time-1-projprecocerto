@@ -93,10 +93,13 @@ fieldset.row .form-floating>label {
     background-color: #2eb375!important;
 }
 
-
-
 .btn-group-lg>.btn, .btn-lg {
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
     border-radius: 0.3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #2eb375;
 }
