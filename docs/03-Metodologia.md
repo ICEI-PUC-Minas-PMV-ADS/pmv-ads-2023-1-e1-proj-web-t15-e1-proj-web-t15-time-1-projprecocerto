@@ -98,6 +98,49 @@
 
 ⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/04-Projeto%20de%20Interface.md">Projeto de interface</a>
 
+### Sprint 3
+
+⦁ Template padrão do Site:
+
+	Tela-Home page
+	Tela-Cadastro
+	Tela-login
+	Tela-Carrinho
+	Tela-Usuario
+	
+⦁ Programação de Funcionalidades :
+
+Atendendo as funcionalidades  proposta no Requisitos Funcionais, conforme abaixo:
+| ID | Descrição | Prioridade |
+| ---         |     ---      |         :---: |
+| RF-01   | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
+| RF-02   | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
+| RF-03   | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média      |
+
+
+     
+### Planejamento
+
+![Captura de tela 2023-05-14 210501](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/42abfb8b-119b-46f1-b80a-c1151327be05)
+
+
+### Execução
+
+|  Tarefa  | Responsável  |
+|----------|--------------|
+|Tela-Home Page|Simon Henrique, Felipe Joseph|
+|Tela-Cadastro|Pedro Henrique|
+|Tela-login|Tatiana Martins|
+|Tela-Carrinho|Gabriel Yan|
+|Tela-Usuario|Simon Henrique|
+
+### Evidências
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/05-Template padrão do Site.md">Template padrão do Site</a>
+
+⦁ <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/blob/main/docs/06-Programação de Funcionalidades.md">Programação de Funcionalidades</a>
+
+
      
 # Relação de ambiente de trabalho
 
