@@ -25,16 +25,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 | ID | Descrição | Prioridade |
-| ---         |     ---      |          :---: |
-| RF-01   | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
-| RF-02     | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
-| RF-03     | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média      |
-| RF-04     | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.       | Alta      |
-| RF-05     | O sistema deve permitir que os usuários avaliem os supermercados e os produtos.     | Baixa      |
-| RF-06     | O sistema deve permitir que os usuários se inscrevam em notificações por e-mail, que forneçam informações sobre promoções, descontos e ofertas especiais em seus supermercados favoritos.       | Baixa      |
-| RF-07     | O sistema deve ser capaz de integrar-se com mapas, permitindo que os usuários visualizem a localização dos supermercados em um mapa e obtenham direções para chegar a eles.       | Alta      |
-| RF-08     | O sistema deve permitir que os usuários visualizem informações detalhadas sobre os supermercados, incluindo endereço, telefone, horário de funcionamento, opiniões dos usuários e serviços disponíveis       | Média      |
-| RF-09     | O sistema deve permitir que os usuários pesquisem supermercados próximos a sua localização com base em diferentes critérios, como distância, disponibilidade de estacionamento, horário de funcionamento, entre outros.       | Baixa      |
+| :---: | --- | :---: |
+| RF-01   | O sistema deve permitir que os usuários façam login em suas contas. | Alta |
+| RF-02   | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone. | Alta |
+| RF-03   | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria. | Média |
+| RF-04   | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados. | Alta |
+| RF-05   | O sistema deve permitir que os usuários avaliem os supermercados e os produtos. | Baixa |
+| RF-06   | O sistema deve permitir que os usuários se inscrevam em notificações por e-mail, que forneçam informações sobre promoções, descontos e ofertas especiais em seus supermercados favoritos. | Baixa |
+| RF-07   | O sistema deve ser capaz de integrar-se com mapas, permitindo que os usuários visualizem a localização dos supermercados em um mapa e obtenham direções para chegar a eles. | Alta |
+| RF-08   | O sistema deve permitir que os usuários visualizem informações detalhadas sobre os supermercados, incluindo endereço, telefone, horário de funcionamento, opiniões dos usuários e serviços disponíveis . | Média |
+| RF-09   | O sistema deve permitir que os usuários pesquisem supermercados próximos a sua localização com base em diferentes critérios, como distância, disponibilidade de estacionamento, horário de funcionamento, entre outros. | Baixa |
+| RF-10   | O sistema deve permitir que os usuários visualizem promoções. | Baixa |
+| RF-11   | O sistema deve permitir que os clientes adicionem produtos a seus carrinhos de compras, atualizem quantidades e removam produtos. | Baixa |
 
 
 
