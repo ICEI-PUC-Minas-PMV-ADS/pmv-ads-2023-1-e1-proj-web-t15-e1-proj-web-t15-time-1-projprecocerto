@@ -7,12 +7,13 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ## Funcionalidades priorizadas na SPRINT 3
 
-| ID | Descrição | Prioridade |
-| :---:         |     ---      |          :---: |
-| RF-01 | O sistema deve permitir que os usuários façam login em suas contas.     | Alta    |
-| RF-02 | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone.       | Alta      |
-| RF-03 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria.    | Média     |
-
+| ID | Descrição | Prioridade | Responsável |
+| :---: | --- | :---: | :---: |
+| RF-01 | O sistema deve permitir que os usuários façam login em suas contas. | Alta | Tatiana |
+| RF-02 | O sistema deve permitir que os usuários cadastrados adicionem informações do cliente, como nome, endereço, e-mail e telefone. | Alta | Pedro |
+| RF-03 | O sistema deve permitir que os usuários pesquisem produtos com base em vários critérios, como nome, preço e categoria. | Média | Simon |
+| RF-10 | O sistema deve permitir que os usuários visualizem promoções. | Baixa | Felipe |
+| RF-11 | O sistema deve permitir que os clientes adicionem produtos a seus carrinhos de compras, atualizem quantidades e removam produtos. | Baixa | Gabriel |
 
 ## Login
 
