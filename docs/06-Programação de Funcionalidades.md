@@ -164,7 +164,7 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 </body>
 ~~~~
 
-## Login
+## Carrinho
 
 ![Captura de tela 2023-05-18 154102](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/129537841/e4fd2c64-d5d9-4ec9-ab63-5e61002265fb)
 
