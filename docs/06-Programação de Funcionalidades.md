@@ -336,6 +336,7 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
         </div>
     </main>
      ~~~~~           
+     
 #javascript
 ~~~~javascript
 function cadastrar() {
@@ -450,6 +451,64 @@ function cadastrar() {
             alert('Desculpe, o armazenamento local não é suportado pelo seu navegador.');
         }
     }
+    document.addEventListener("DOMContentLoaded", function() {
+    var inputGroups = document.querySelectorAll(".input-group");
+    var baseValues = [4.50, 24.50, 12.50, 12.00]; 
+    var totalValues = document.querySelectorAll(".text-dark");
+
+    inputGroups.forEach(function(group, index) {
+        var input = group.querySelector("input");
+        var increaseButton = group.querySelector(".bi-caret-up-fill");
+        var decreaseButton = group.querySelector(".bi-caret-down-fill");
+
+        increaseButton.addEventListener("click", function() {
+            var value = parseInt(input.value);
+            if (value < 10) {
+                input.value = value + 1;
+                updateTotalValue(index);
+                calcularValorTotal();
+            }
+        });
+
+        decreaseButton.addEventListener("click", function() {
+            var value = parseInt(input.value);
+            if (value > 1) {
+                input.value = value - 1;
+                updateTotalValue(index);
+                calcularValorTotal();
+            }
+        });
+
+        function updateTotalValue(index) {
+            var value = parseInt(input.value);
+            var totalPrice = baseValues[index] * value;
+            totalValues[index].textContent = "Valor Total: R$ " + totalPrice.toFixed(2);
+        }
+    });
+
+    var h4Total = document.querySelector("h4.text-dark.mb-3");
+
+    function calcularValorTotal() {
+        var totalSum = 0;
+
+        inputGroups.forEach(function(group, index) {
+            var input = group.querySelector("input");
+            var value = parseInt(input.value);
+            if (!isNaN(value)) {
+                var totalPrice = baseValues[index] * value;
+                totalSum += totalPrice;
+            }
+        });
+
+        h4Total.textContent = "Valor Total: R$ " + totalSum.toFixed(2);
+    }
+
+    calcularValorTotal();
+});
+function removeList(icon) {
+            var listItem = icon.closest('.list-group-item');
+            listItem.remove();
+            }
 ~~~~
 ## Barra de Busca e Filtro de Pesquisa
 
