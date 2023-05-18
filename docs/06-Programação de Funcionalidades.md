@@ -163,6 +163,179 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
     </div>
 </body>
 ~~~~
+
+## Login
+
+![Captura de tela 2023-05-18 154102](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/129537841/e4fd2c64-d5d9-4ec9-ab63-5e61002265fb)
+
+#html
+~~~~html
+<main class="flex-fill">
+        <div class="container">
+            <h1>Carrinho de Compras</h1>
+            <ul class="list-group mb-3" id="list1">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="img/produtos/Macarrão.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b><a href="#" class="text-decoration-none text-success">Macarrão</a></b>
+                            </h4>
+                            <h5>
+                                Macarrão Vilma 500g
+                            </h5>
+                        </div>
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-up-fill"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="1">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                                <button class="btn btn-outline-danger border-dark btn-sm" type="button" onclick="removeList(this)">
+                                    <i class="bi-trash"></i>
+                                </button>
+                            </div>
+                            <div class="text-end mt-2">
+                                <h6 class="text-dark">
+                                    <br>Valor Total: R$ 4,50
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <ul class="list-group mb-3" id="list2"> 
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="img/produtos/Arroz.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b><a href="#" class="text-decoration-none text-success">Arroz</a></b>
+                            </h4>
+                            <h5>
+                                Arroz Branco Camil 5Kg
+                            </h5>
+                        </div>
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-up-fill"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="1">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                                <button class="btn btn-outline-danger border-dark btn-sm" type="button" onclick="removeList(this)">
+                                    <i class="bi-trash"></i>
+                                </button>
+                            </div>
+                            <div class="text-end mt-2">
+                                <h6 class="text-dark">
+                                    <br>Valor Total: R$ 24,50
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <ul class="list-group mb-3" id="list3">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="img/produtos/Feijão.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b><a href="#" class="text-decoration-none text-success">Feijão</a></b>
+                            </h4>
+                            <h5>
+                                Feijão Carioca Camil 1Kg
+                            </h5>
+                        </div>
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-up-fill"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="1">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                                <button class="btn btn-outline-danger border-dark btn-sm" type="button" onclick="removeList(this)">
+                                    <i class="bi-trash"></i>
+                                </button> 
+                            </div>
+                            <div class="text-end mt-2">
+                                <h6 class="text-dark">
+                                    <br>Valor Total: R$ 12,50
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <ul class="list-group mb-3" id="list4">
+                <li class="list-group-item py-3">
+                    <div class="row g-3">
+                        <div class="col-4 col-md-3 col-lg-2">
+                            <a href="#">
+                                <img src="img/produtos/Papel Hig.jpg" class="img-thumbnail">
+                            </a>
+                        </div>
+                        <div class="col-8 col-md-9 col-lg-7 col-xl-8 text-left align-self-center">
+                            <h4>
+                                <b><a href="#" class="text-decoration-none text-success">Papel Higiênico</a></b>
+                            </h4>
+                            <h5>
+                                Papel Higiênico Neve
+                            </h5>
+                        </div>
+                        <div class="col-6 offset-6 col-sm-6 offset-sm-6 col-md-4 offset-md-8 col-lg-3 offset-lg-0 col-xl-2 align-self-center mt-3">
+                            <div class="input-group">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-up-fill"></i>
+                                </button>
+                                <input type="text" class="form-control text-center border-dark" value="1">
+                                <button class="btn btn-outline-dark btn-sm" type="button">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                </button>
+                                <button class="btn btn-outline-danger border-dark btn-sm" type="button" onclick="removeList(this)">
+                                    <i class="bi-trash"></i>
+                                </button>
+                            </div>
+                            <div class="text-end mt-2">
+                                <h6 class="text-dark">
+                                    <br>Valor Total: R$ 12,00
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item py-3">
+                    <div class="text-end">
+                        <h4 class="text-dark mb-3">
+                            Valor Total: R$ 0,00
+                        </h4>
+                        <a href="index.html" class="btn btn-outline-success btn-lg">
+                            Continuar Comprando                            
+                        </a>
+                        <a href="#" class="btn btn-success btn-lg ms-2 mt-xs-3">Fechar Compra</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+     ~~~~~           
 #javascript
 ~~~~javascript
 function cadastrar() {
