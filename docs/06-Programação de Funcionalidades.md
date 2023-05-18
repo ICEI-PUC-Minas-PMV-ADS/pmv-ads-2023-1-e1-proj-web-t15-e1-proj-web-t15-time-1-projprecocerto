@@ -334,8 +334,8 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
                 </li>
             </ul>
         </div>
-    </main>
-     ~~~~~           
+    </main> 
+~~~~         
      
 #javascript
 ~~~~javascript
