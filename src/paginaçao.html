@@ -94,7 +94,8 @@
                     <div class="col-12 col-md-5">
                         <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
                             <div class="input-group input-group-sm">
-                                <input type="search" class="form-control" id="search-bar" placeholder="Busque aqui seu produto">
+                                <input type="search" class="form-control" id="search-bar"
+                                    placeholder="Busque aqui seu produto">
                             </div>
                         </form>
                     </div>
@@ -102,357 +103,369 @@
                         <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
                             <form class="d-inline-block">
                                 <select class="form-select form-select-sm">
+                                    <option value="">Todos</option>
                                     <option>Ordenar pelo nome</option>
                                     <option>Ordenar pelo menor preço</option>
                                     <option>Ordenar pelo maior preço</option>
+                                    <option value="supermercado1">Carrefour</option>
+                                    <option value="supermercado2">Epa</option>
+                                    <option value="supermercado3">Bh</option>
                                 </select>
-                            </form>
-                            <nav class="d-inline-block me-3">
-                                <ul class="pagination pagination-sm my-0">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">5</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">6</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        </div>
+
+                        <table id="product-table">
+                            <tr>
+                                <th>Produto</th>
+
+
+                                </select>
+                                </form>
+                                <nav class="d-inline-block me-3">
+                                    <ul class="pagination pagination-sm my-0">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">4</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">5</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">6</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row g-3" id="product-list">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Arroz.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 24,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Arroz</h5>
+                            <p class="card-text truncar-3l">
+                                Arroz Branco Camil 5Kg
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
+                            </a>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
                 </div>
-        
-                <hr>
-        
-                <div class="row g-3" id="product-list">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Feijão.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 12,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Feijão</h5>
+                            <p class="card-text truncar-3l">
+                                Feijão Carioca Camil 1Kg
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Arroz.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 24,50
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Arroz</h5>
-                                <p class="card-text truncar-3l">
-                                    Arroz Branco Camil 5Kg
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Óleo.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 8,00
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Óleo de Soja</h5>
+                            <p class="card-text truncar-3l">
+                                Óleo de Soja Liza
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Feijão.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 12,50
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Feijão</h5>
-                                <p class="card-text truncar-3l">
-                                    Feijão Carioca Camil 1Kg
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart-fill"></i>
+                        </a>
+                        <img src="img/produtos/Amaciante.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Amaciante</h5>
+                            <p class="card-text truncar-3l">
+                                Amaciante Ype 500ml
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Óleo.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 8,00
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Óleo de Soja</h5>
-                                <p class="card-text truncar-3l">
-                                    Óleo de Soja Liza
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart-fill"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Açúcar.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 4,80
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Açúcar</h5>
+                            <p class="card-text truncar-3l">
+                                Açúcar Refinado União 1Kg
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Amaciante.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 4,50
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Amaciante</h5>
-                                <p class="card-text truncar-3l">
-                                    Amaciante Ype 500ml
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Papel Hig.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 12,00
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Papel Higiênico</h5>
+                            <p class="card-text truncar-3l">
+                                Papel Higiênico Neve
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Açúcar.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 4,80
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Açúcar</h5>
-                                <p class="card-text truncar-3l">
-                                    Açúcar Refinado União 1Kg
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Café .jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 15,00
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Café</h5>
+                            <p class="card-text truncar-3l">
+                                Café Três Corações 500g
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Papel Hig.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 12,00
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Papel Higiênico</h5>
-                                <p class="card-text truncar-3l">
-                                    Papel Higiênico Neve
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Macarrão.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 4,50
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Macarrão</h5>
+                            <p class="card-text truncar-3l">
+                                Macarrão Vilma 500g
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Café .jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 15,00
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Café</h5>
-                                <p class="card-text truncar-3l">
-                                    Café Três Corações 500g
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart-fill"></i>
+                        </a>
+                        <img src="img/produtos/Sal.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 3,00
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Sal</h5>
+                            <p class="card-text truncar-3l">
+                                Sal Globo 1Kg
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Macarrão.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 4,50
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Macarrão</h5>
-                                <p class="card-text truncar-3l">
-                                    Macarrão Vilma 500g
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart-fill"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Sabonete.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 4,30
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Sabonete</h5>
+                            <p class="card-text truncar-3l">
+                                Sabonete Nivea 90g
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Sal.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 3,00
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Sal</h5>
-                                <p class="card-text truncar-3l">
-                                    Sal Globo 1Kg
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Creme Dental.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 3,90
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title product-list">Creme Dental</h5>
+                            <p class="card-text truncar-3l">
+                                Creme Dental Colgate 90g
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
                             </a>
-                            <img src="img/produtos/Sabonete.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 4,30
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Sabonete</h5>
-                                <p class="card-text truncar-3l">
-                                    Sabonete Nivea 90g
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
-                            </a>
-                            <img src="img/produtos/Creme Dental.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 3,90
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title product-list">Creme Dental</h5>
-                                <p class="card-text truncar-3l">
-                                    Creme Dental Colgate 90g
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card text-center bg-light">
+                        <a href="#" class="position-absolute end-0 p-2 text-danger">
+                            <i class="bi-suit-heart"></i>
+                        </a>
+                        <img src="img/produtos/Coca Cola.jpg" class="card-img-top">
+                        <div class="card-header">
+                            R$ 9,00
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card text-center bg-light">
-                            <a href="#" class="position-absolute end-0 p-2 text-danger">
-                                <i class="bi-suit-heart"></i>
-                            </a>
-                            <img src="img/produtos/Coca Cola.jpg" class="card-img-top">
-                            <div class="card-header">
-                                R$ 9,00
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Coca Cola</h5>
-                                <p class="card-text truncar-3l">
-                                    Coca Cola 2L
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-success mt-2 d-block">
-                                    Adicionar ao Carrinho
-                                </a>
-                                <small class="text-dark">320,5kg em estoque</small>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Coca Cola</h5>
+                            <p class="card-text truncar-3l">
+                                Coca Cola 2L
+                            </p>
                         </div>
-                    </div>
-                </div> 
-
-                <hr>
-
-                <div class="row pb-3">
-                    <div class="col-12 col-md-12">
-                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                            <form class="d-inline-block">
-                                <select class="form-select form-select-sm">
-                                    <option>Ordenar pelo nome</option>
-                                    <option>Ordenar pelo menor preço</option>
-                                    <option>Ordenar pelo maior preço</option>
-                                </select>
-                            </form>
-                            <nav class="d-inline-block me-3">
-                                <ul class="pagination pagination-sm my-0">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">4</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">5</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">6</a>
-                                    </li>
-                                </ul>
-                            </nav>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-success mt-2 d-block">
+                                Adicionar ao Carrinho
+                            </a>
+                            <small class="text-dark">320,5kg em estoque</small>
                         </div>
                     </div>
                 </div>
             </div>
-        </main> 
+
+            <hr>
+
+            <div class="row pb-3">
+                <div class="col-12 col-md-12">
+                    <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                        <form class="d-inline-block">
+                            <select class="form-select form-select-sm">
+                                <option>Ordenar pelo nome</option>
+                                <option>Ordenar pelo menor preço</option>
+                                <option>Ordenar pelo maior preço</option>
+                            </select>
+                        </form>
+                        <nav class="d-inline-block me-3">
+                            <ul class="pagination pagination-sm my-0">
+                                <li class="page-item">
+                                    <a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">4</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">5</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">6</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
     </div>
 
     <footer class="border-top text-muted bg-light">
@@ -464,10 +477,10 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/search.js"></script>
-    
+
 </body>
 
-</html> 
+</html>
