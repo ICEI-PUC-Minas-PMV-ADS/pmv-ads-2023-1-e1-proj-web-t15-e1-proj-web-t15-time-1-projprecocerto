@@ -61,6 +61,12 @@ body {
 body {
     min-width: 372px;
 }
+
+footer {
+    background-color: #2eb375;
+    color: #fff;
+}
+
 .wrapper {
     min-height: 100vh;
 }
