@@ -12,7 +12,7 @@ Os testes funcionais a serem realizados são descritos a seguir:
 
 # Casos de Testes
 
-CT-1 - Adicionar ao carrinho, atualizar quantidade e remover produtos
+## CT-1 - Adicionar ao carrinho, atualizar quantidade e remover produtos
 
 * Requisitos associados: RF-11
 
