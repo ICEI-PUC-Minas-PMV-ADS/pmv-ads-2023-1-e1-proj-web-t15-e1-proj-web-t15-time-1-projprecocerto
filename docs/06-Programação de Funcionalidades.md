@@ -53,54 +53,16 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ## Barra de Busca e Filtro de Pesquisa
 
-![Captura de tela 2023-05-14 203251](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/1f7dcdc6-065a-4150-bee1-54b40d103ec0)
+![Captura de tela 2023-06-06 205027](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/d1a4acea-8f60-4840-a074-1d82c4cb820a)
+[](url)
 
-#html
-~~~~html
-<main class="flex-fill">
-   <div class="container">
-       <div class="row">
-           <div class="col-12 col-md-5">
-               <form class="justify-content-center justify-content-md-start mb-3 mb-md-0">
-                   <div class="input-group input-group-sm">
-                       <input type="search" class="form-control" id="search-bar" placeholder="Busque aqui seu produto">
-                   </div>
-               </form>
-           </div>
-           <div class="col-12 col-md-7">
-               <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                   <form class="d-inline-block">
-                       <select class="form-select form-select-sm">
-                           <option>Ordenar pelo nome</option>
-                           <option>Ordenar pelo menor preço</option>
-                           <option>Ordenar pelo maior preço</option>
-                       </select>
-                   </form>
-  ~~~~                        
-#JavaScript                          
-~~~~javascript
-                      
-const searchBar = document.getElementById('search-bar');
+### Artefatos da funcionalidade
 
-searchBar.addEventListener('input', function(event) {
-    const searchTerm = event.target.value.toLowerCase();
-    
-    const productList = document.getElementById('product-list');
-    const products = productList.getElementsByClassName('col-xl-3');
-    
-    for (let i = 0; i < products.length; i++) {
-        const product = products[i];
-        const title = product.getElementsByClassName('card-title')[0].textContent.toLowerCase();
-        
-        if (title.includes(searchTerm)) {
-            product.style.display = 'block';
-        } else {
-            product.style.display = 'none';
-        }
-    }
-});
-~~~~
+● index.html
 
+● search.js 
+
+● estilos.css 
 
 
 
