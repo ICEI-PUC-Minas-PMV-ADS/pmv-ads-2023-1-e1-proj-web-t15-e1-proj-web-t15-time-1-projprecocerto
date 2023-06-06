@@ -19,150 +19,26 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ![Captura de tela 2023-05-14 203251](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/1f7dcdc6-065a-4150-bee1-54b40d103ec0)
 
-#html
-~~~~html
-<body>
-    <div class="d-flex flex-column wrapper">
-        <main class="flex-fill">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <form class="col-sm-10 col-md-8 col-lg-6">
-                        <h1>Identifique-se, por favor</h1>
+### Artefatos da funcionalidade
 
-                        <div class="form-floating mb-3">
-                            <input type="email" id="txtEmail" class="form-control" placeholder=" " autofocus>
-                            <label for="txtEmail">E-mail</label>
-                        </div>
+● login.html
 
-                        <div class="form-floating mb-3">
-                            <input type="password" id="txtSenha" class="form-control" placeholder=" ">
-                            <label for="txtSenha">Senha</label>
-                        </div>
+● login.js
 
-                        <div class="form-check mb-3">
-                            <input type="checkbox" class="form-check-input" value="" id="chkLembrar">
-                            <label for="chkLembrar" class="form-check-label">Lembrar de mim</label>
-                        </div>
-
-                        <button type="button" onclick="window.location.href='./cliente_pedidos.html'"
-                            class="btn btn-lg btn-success">Entrar</button>
-
-                        <p class="mt-3">
-                            Ainda não é cadastrado? <a href="./cadastro.html">Clique aqui</a> para se cadastrar.
-                        </p>
-
-                        <p class="mt-3">
-                            Esqueceu sua senha? <a href="./recuperarsenha.html">Clique aqui</a> para recuperá-la.
-                        </p>
-                    </form>
-                </div>
-            </div>
-        </main>
-    </div>
-</body>
-~~~~
+● estilos.css
 
 ## Cadastro
 
 ![Captura de tela 2023-05-14 203217](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/fd158737-4c97-4ad1-8106-71e83f4dcc50)
 
-#html
-~~~~html
-<body>
-    <div class="d-flex flex-column wrapper">
-        <main class="flex-fill">
-            <div class="container">
-                <h1>Informe seus dados</h1>
-                <hr>
-                <form class="mt-3">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                            <fieldset class="row gx-3">
-                                <legend>Dados Pessoais</legend>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
-                                    <label for="txtNome">Nome</label>
-                                </div>
-                                <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                    <input class="form-control" type="text" id="txtCPF" placeholder=" " />
-                                    <label for="txtCPF">CPF</label>
-                                </div>
-                                <div class="form-floating mb-3 col-md-6 col-xl-4">
-                                    <input class="form-control" type="date" id="txtDataNascimento" placeholder=" " />
-                                    <label for="txtDataNascimento" class="d-inline d-sm-none d-md-inline d-lg-none">Data
-                                        Nascimento</label>
-                                    <label for="txtDataNascimento" class="d-none d-sm-inline d-md-none d-lg-inline">Data
-                                        de Nascimento</label>
-                                </div>
-                            </fieldset>
-                            <fieldset>
-                                <legend>Contatos</legend>
-                                <div class="form-floating mb-3 col-md-8">
-                                    <input class="form-control" type="email" id="txtEmail" placeholder=" " />
-                                    <label for="txtEmail">E-mail</label>
-                                </div>
-                                <div class="form-floating mb-3 col-md-6">
-                                    <input class="form-control" placeholder=" " type="text" id="txtTelefone" />
-                                    <label for="txtTelefone">Telefone</label>
-                                </div>
-                            </fieldset>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <fieldset class="row gx-3">
-                                <legend>Endereço</legend>
-                                <div class="form-floating mb-3 col-md-6 col-lg-4">
-                                    <input class="form-control" type="text" id="txtCEP" placeholder=" " />
-                                    <label for="txtCEP">CEP</label>
-                                </div>
-                                <div class="mb-3 col-md-6 col-lg-8 align-self-end">
-                                    <textarea class="form-control text-muted bg-light"
-                                        style="height: 58px; font-size: 14px;"
-                                        disabled>Digite o CEP para buscarmos o endereço.</textarea>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="form-floating mb-3 col-md-4">
-                                    <input class="form-control" type="text" id="txtNumero" placeholder=" " />
-                                    <label for="txtNumero">Número</label>
-                                </div>
-                                <div class="form-floating mb-3 col-md-8">
-                                    <input class="form-control" type="text" id="txtComplemento" placeholder=" " />
-                                    <label for="txtComplemento">Complemento</label>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" id="txtReferencia" placeholder=" " />
-                                    <label for="txtReferencia">Referência</label>
-                                </div>
-                            </fieldset>
-                            <fieldset class="row gx-3">
-                                <legend>Senha de Acesso</legend>
-                                <div class="form-floating mb-3 col-lg-6">
-                                    <input class="form-control" type="password" id="txtSenha" placeholder=" " />
-                                    <label for="txtSenha">Senha</label>
-                                </div>
-                                <div class="form-floating mb-3 col-lg-6">
-                                    <input class="form-control" type="password" id="txtConfirmacaoSenha" placeholder=" " />
-                                    <label class="form-label" for="txtConfirmacaoSenha">Confirmação da Senha</label>
-                                </div>
-                            </fieldset>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Desejo receber informações sobre promoções.
-                        </label>
-                    </div>
-                    <div class="mb-3 text-left">
-                        <input type="button" value="Criar meu cadastro" class="btn btn-lg btn-success" onclick="cadastrar()" onclick="criar()"/>
-                        <input type="button" value="Fazer Login" class="btn btn-lg btn-success" onclick="window.location.href='./login.html'"/></button>
-                    </div>
-                </form>
-            </div>
-        </main>
-    </div>
-</body>
-~~~~
+### Artefatos da funcionalidade
+
+● cadastro.html
+
+● cadastro.js
+
+● estilos.css
+
 
 ## Carrinho
 
