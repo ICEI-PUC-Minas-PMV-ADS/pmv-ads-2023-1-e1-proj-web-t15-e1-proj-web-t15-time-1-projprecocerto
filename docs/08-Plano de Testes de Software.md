@@ -1,15 +1,11 @@
 # Plano de Testes de Software
 
+O plano de teste aqui apresentado, apresenta a relação de casos de testes a serem realizados.
+
+## Requisitos para realização dos testes 
 Os requisitos para realização dos testes de software são:
-
-* Site publicado na Internet
-
-* Navegador da Internet - Chrome, Firefox ou Edge
-
-* Conectividade de Internet para acesso às plataformas (APISs)
- 
-Os testes funcionais a serem realizados são descritos a seguir:
-
+* Computador ou smartphone com acesso a um navegador.
+* Conectividade de internet para acesso ao sistema.
 # Casos de Testes
 
 ## CT-1 - Adicionar ao carrinho, atualizar quantidade e remover produtos
