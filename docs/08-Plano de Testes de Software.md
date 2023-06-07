@@ -18,12 +18,14 @@ Os requisitos para realização dos testes de software são:
 
 * Procedimentos:
 
-   1. Abrir o site
-   2. Localizar um produto
-   3. Adiconar ao carrinho
-   4. Ir no carrinho
-   5. Atalizar a quantidade de um produto
-   6. Remover um produto
+   1. Acessar o Navegador
+   2. Informar o endereço do Site
+   3. Visualizar a página principal
+   4. Localizar um produto
+   5. Adiconar ao carrinho
+   6. Ir no carrinho
+   7. Atalizar a quantidade de um produto
+   8. Remover um produto
 
 * Resultado esperado: O usuário poderá realizar esses procedimentos e avançar para a finalização da compra, sem apresentar erros.
 
