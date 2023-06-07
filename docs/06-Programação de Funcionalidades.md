@@ -21,11 +21,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ### Artefatos da funcionalidade
 
-● login.html
-
-● login.js
-
-● estilos.css
+* login.html
+* login.js
+* estilos.css
 
 ## Cadastro
 
@@ -33,11 +31,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ### Artefatos da funcionalidade
 
-● cadastro.html
-
-● cadastro.js
-
-● estilos.css
+* cadastro.html
+* cadastro.js
+* estilos.css
 
 
 ## Carrinho
@@ -46,9 +42,8 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ### Artefatos da funcionalidade
 
-● carrinho.html
-
-● estilos.css       
+* carrinho.html
+* estilos.css       
      
 
 ## Barra de Busca e Filtro de Pesquisa
@@ -58,11 +53,9 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ### Artefatos da funcionalidade
 
-● index.html
-
-● search.js 
-
-● estilos.css 
+* index.html
+* search.js 
+* estilos.css 
 
 
 
