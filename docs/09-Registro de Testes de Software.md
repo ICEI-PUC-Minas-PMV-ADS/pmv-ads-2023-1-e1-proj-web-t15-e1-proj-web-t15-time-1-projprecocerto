@@ -22,3 +22,8 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 * Resultado obtido: Passou no teste
 
 * Testado por: Simon 
+
+![Captura de tela 2023-06-06 210015](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/ea958f1d-59b6-4f76-9000-c2e41f281680)
+
+![Captura de tela 2023-06-06 210123](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/5c9e7d57-73c6-4a90-ba40-6f2a4b2543e5)
+
