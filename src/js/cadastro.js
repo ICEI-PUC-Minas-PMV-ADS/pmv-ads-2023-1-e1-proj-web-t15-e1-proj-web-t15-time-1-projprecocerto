@@ -16,8 +16,19 @@ function cadastrar() {
                 registros.push(usuario);
 
                 localStorage.setItem('registros', JSON.stringify(registros));
+                
+                // Armazena o nome do usuário
+                localStorage.setItem('nomeUsuario', nome);
+
 
                 alert('Usuário cadastrado com sucesso!');
+
+                //Direcinando para tela de Login
+                setTimeout(()=>{
+
+                    window.location.href = '../src/login.html'
+                    
+                }, 300)
 
                 document.getElementById('txtNome').value = '';
                 document.getElementById('txtCPF').value = '';
@@ -31,6 +42,22 @@ function cadastrar() {
             alert('Por favor, preencha todos os campos do formulário.');
         }
     }
+    
+    //Função para exibir Nome do Usuário.
+    
+    function exibirNomeUsuario() {
+        var nomeUsuario = localStorage.getItem('nomeUsuario');
+        if (nomeUsuario) {
+            var nomeUsuarioLink = document.getElementById("nomeUsuarioLink");
+            var mensagem = "Olá, " + nomeUsuario + " !";
+            nomeUsuarioLink.textContent = mensagem;
+        }
+    }
+    window.onload = function() {
+        exibirNomeUsuario();
+    };
+
+
 
     function criar() {
         var nome = document.getElementById('txtNome').value;
