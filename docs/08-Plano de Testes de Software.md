@@ -45,3 +45,22 @@ Os requisitos para realização dos testes de software são:
    6. Digitar o nome do produto
 
 * Resultado esperado: O usuário poderá vizualizar o produto desejado.
+
+## CT-3 - Visualizar Promoções, as promoções são exibidas na tela inicial da aplicação.
+
+* Requisitos associados: RF-10 - O sistema deve permitir que os usuários visualizem promoções.
+
+* Objetivos: Facilitar a visualização e dar destaque para as promoções feitas pelos supermercados parceiros.
+
+* Procedimentos:
+
+   1. Acessar o Navegador
+   2. Informar o endereço do Site
+   3. Visualizar a página principal, Tela Home.
+   4. Localizar o Banner com as promoções 
+   5. Interagir com os controles de avançar e voltar 
+
+* Resultado esperado: O usuário visualiza as promoções e interage com o Banner através dos comando de avançar e voltar no próprio Banner.
+   
+
+

@@ -27,3 +27,13 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![Captura de tela 2023-06-06 210123](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/5c9e7d57-73c6-4a90-ba40-6f2a4b2543e5)
 
+# CT-3 - Visualizar Promoções, as promoções são exibidas na tela inicial da aplicação.
+
+* Resultado obtido: Passou no teste
+
+* Testado por: Felipe
+
+![Banner (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/77369235/b20e2792-d832-4555-a190-5575fc0b3169)
+
+
+
