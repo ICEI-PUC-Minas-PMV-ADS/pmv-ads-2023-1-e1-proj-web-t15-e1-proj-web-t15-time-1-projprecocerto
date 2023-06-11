@@ -161,7 +161,6 @@ fieldset.row .form-floating>label {
     color: #fff;
     width: 40px;
     line-height: 40px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .newsletter-mail, .newsletter-btn{
@@ -202,4 +201,39 @@ input[type="email" i] {
 .controls {
     margin-top: 10px;
     padding: 10px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: flex-start;
+} 
+
+#search-form {
+    display: flex;
+    justify-content: flex-start;
+}
+.search-map { 
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: solid 2px #eee;
+}
+
+.button-map {
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: solid 1px #cc3140;
+    background-color: #dc3545;
+    color: #e0e0e0;
+}
+
+.search-map, .button-map {
+    font-weight: 500;
+    font-size: 0.5em;
+    margin-bottom: 10px; 
+}
+
+#search-form i {
+    padding-left: 5px;
 }
