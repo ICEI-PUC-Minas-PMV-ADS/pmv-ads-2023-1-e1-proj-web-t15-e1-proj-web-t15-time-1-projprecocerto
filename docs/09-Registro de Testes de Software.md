@@ -47,3 +47,16 @@ Digitou o nome do supermercado:
 Efetuou a busca:
 ![imagem_2023-06-11_182548831](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/d63c105a-ba29-4436-9a2f-98f6b0e6bf75)
 
+# CT-5 - O sistema deve permitir que os usuários façam login em suas contas.
+
+* Resultado obtido: Passou no teste
+
+* Testado por: Tatiana
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/dbb621e0-1ef0-4745-aec4-1b139c3c0351)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/53c48e23-0f46-42bf-9e61-8e8b4db655c7)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/b36993a9-990c-4414-afaa-250348d8124e)
+
+
