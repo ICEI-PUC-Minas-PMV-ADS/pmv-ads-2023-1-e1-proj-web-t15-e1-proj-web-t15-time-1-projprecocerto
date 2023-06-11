@@ -35,5 +35,28 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![Banner (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/77369235/b20e2792-d832-4555-a190-5575fc0b3169)
 
+# CT-4 - Pesquisar na barra de pesquisa do mapa o endereço do usuário e buscar a localização atual do usuário.
+
+* Resultado obtido: Passou no teste
+
+* Testado por: Pedro Henrique / Simon Henrique / Felipe Joseph
+
+Digitou o nome do supermercado:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/07b3a2b7-1e9b-4beb-b1a3-a8731ef64bb3)
+
+Efetuou a busca:
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/2ce6a490-55fe-4886-ab74-504096092dac)
+
+# CT-5 - O sistema deve permitir que os usuários façam login em suas contas.
+
+* Resultado obtido: Passou no teste
+
+* Testado por: Tatiana
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/dbb621e0-1ef0-4745-aec4-1b139c3c0351)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/53c48e23-0f46-42bf-9e61-8e8b4db655c7)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto-3/assets/128651687/b36993a9-990c-4414-afaa-250348d8124e)
 
 

@@ -78,3 +78,22 @@ Os requisitos para realização dos testes de software são:
    6. Ir no carrinho
    7. Finalizar Compra
    8. Buscar o Supermecado
+
+## CT-5 - O sistema deve permitir que os usuários façam login em suas contas.	
+
+* Requisitos associados: RF-01
+
+* Objetivos: O sistema deve garantir que os usuários acessem o site com seu login e senha previamente cadastrados.
+
+* Procedimentos:
+
+   1. Abrir o site
+   2. Realizar o cadastro em "Cadastrar"
+   3. Inserir seus dados pessoais como nome, CPF, data de nascimento, endereço e senha 
+   4. Clicar em "Criar meu cadastro"
+   5. Clicar em "Fazer Login" ou em "Entrar"
+   6. Inserir E-mail
+   7. Inserir Senha
+   8. Entrar
+
+* Resultado esperado: O usuário poderá acessar o sistema com sua conta, seu login e senha criados no momento do cadastro.
