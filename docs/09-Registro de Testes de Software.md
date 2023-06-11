@@ -35,5 +35,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ![Banner (2)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/77369235/b20e2792-d832-4555-a190-5575fc0b3169)
 
+# CT-4 - Pesquisar na barra de pesquisa do mapa o endereço do usuário e buscar a localização atual do usuário.
 
+* Resultado obtido: Passou no teste
+
+* Testado por: Pedro Henrique
+
+Digitou o nome do supermercado:
+![imagem_2023-06-11_182412841](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/93c8c0d8-f68a-4174-b24a-683085bd8146)
+
+Efetuou a busca:
+![imagem_2023-06-11_182548831](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/d63c105a-ba29-4436-9a2f-98f6b0e6bf75)
 
