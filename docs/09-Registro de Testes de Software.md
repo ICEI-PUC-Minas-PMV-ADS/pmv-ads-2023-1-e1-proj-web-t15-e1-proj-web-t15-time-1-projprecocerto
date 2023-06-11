@@ -39,13 +39,13 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 * Resultado obtido: Passou no teste
 
-* Testado por: Pedro Henrique
+* Testado por: Pedro Henrique / Simon Henrique / Felipe Joseph
 
 Digitou o nome do supermercado:
-![imagem_2023-06-11_182412841](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/93c8c0d8-f68a-4174-b24a-683085bd8146)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/07b3a2b7-1e9b-4beb-b1a3-a8731ef64bb3)
 
 Efetuou a busca:
-![imagem_2023-06-11_182548831](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/126032592/d63c105a-ba29-4436-9a2f-98f6b0e6bf75)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/2ce6a490-55fe-4886-ab74-504096092dac)
 
 # CT-5 - O sistema deve permitir que os usuários façam login em suas contas.
 
