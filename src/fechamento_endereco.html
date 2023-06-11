@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4Upi7Y81N5XFZYmKCHWtAQu69iIC7dAM"></script>
+
 
     <title>Preço Certo :: Fechamento da Compra</title>
 </head>
@@ -35,7 +37,8 @@
                     <div class="align-self-end">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <b><a id="nomeUsuarioLink" href="./cliente_pedidos.html"  class="nav-link text-white"></a></b>
+                                <b><a id="nomeUsuarioLink" href="./cliente_pedidos.html"
+                                        class="nav-link text-white"></a></b>
                             </li>
                             <li class="nav-item">
                                 <b><a href="./login.html" class="nav-link text-white">Sair</a></b>
@@ -59,44 +62,112 @@
             <div class="container">
                 <h1>Selecione o supermecado</h1>
                 <h3 class="mb-4">
-                    Selecione o supermecado e clique em <b class="text-decoration-none text-success">finalizar</b> para prosseguir e <b class="text-decoration-none text-success">gerar o codigo do seu pedido</b>.
+                    Selecione o supermecado, insira seu endereço e em seguida clique em <b class="text-decoration-none text-success">finalizar</b> para
+                    prosseguir e <b class="text-decoration-none text-success">gerar o codigo do seu pedido</b>.
                 </h3>
                 <div class="d-flex justify-content-around flex-wrap border rounded-top pt-4 px-3">
                     <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" 
-                            autocomplete="off" id="end1">
+                        <input type="radio" class="btn-check" name="endereco" autocomplete="off" id="end1">
                         <label class="btn btn-outline-warning p-4 h-100 w-100" for="end1">
                             <h3>
                                 <b class="text-dark">Supermeados BH</b><br>
                                 <hr>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.7987949242083!2d-44.022750824640084!3d-19.974962181423628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6be0a00e7f2e3%3A0x31577accf51b209b!2sSUPERMERCADOS%20BH!5e0!3m2!1spt-BR!2sbr!4v1685136313596!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.7987949242083!2d-44.022750824640084!3d-19.974962181423628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6be0a00e7f2e3%3A0x31577accf51b209b!2sSUPERMERCADOS%20BH!5e0!3m2!1spt-BR!2sbr!4v1685136313596!5m2!1spt-BR!2sbr"
+                                    width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </h3>
                         </label>
                     </div>
                     <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" 
-                            autocomplete="off" id="end2">
+                        <input type="radio" class="btn-check" name="endereco" autocomplete="off" id="end2">
                         <label class="btn btn-outline-info p-4 h-100 w-100" for="end2">
                             <h3>
                                 <b class="text-dark">Carrefour</b><br>
                                 <hr>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.2442413902522!2d-44.06600872464081!3d-19.956228181438078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bfd1e37e3065%3A0x86814468f3dcd48f!2sCarrefour%20Hipermercado%20Contagem!5e0!3m2!1spt-BR!2sbr!4v1685136517594!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.2442413902522!2d-44.06600872464081!3d-19.956228181438078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bfd1e37e3065%3A0x86814468f3dcd48f!2sCarrefour%20Hipermercado%20Contagem!5e0!3m2!1spt-BR!2sbr!4v1685136517594!5m2!1spt-BR!2sbr"
+                                    width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </h3>
                         </label>
                     </div>
                     <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" 
-                            autocomplete="off" id="end3">
+                        <input type="radio" class="btn-check" name="endereco" autocomplete="off" id="end3">
                         <label class="btn btn-outline-danger p-4 h-100 w-100" for="end3">
                             <h3>
                                 <b class="text-dark">EPA</b><br>
                                 <hr>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.9826597250644!2d-43.994287724640614!3d-19.96723148142961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696262d16f4cd%3A0x53910044e416bf3b!2sEpa%20Supermercados!5e0!3m2!1spt-BR!2sbr!4v1685136587756!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.9826597250644!2d-43.994287724640614!3d-19.96723148142961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa696262d16f4cd%3A0x53910044e416bf3b!2sEpa%20Supermercados!5e0!3m2!1spt-BR!2sbr!4v1685136587756!5m2!1spt-BR!2sbr"
+                                    width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </h3>
                         </label>
                     </div>
+                
+                <script>
+                    function initMap() {
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            center: { lat: -34.397, lng: 150.644 },
+                            zoom: 8
+                        });
+
+                        var geocoder = new google.maps.Geocoder();
+
+                        document.getElementById('search-form').addEventListener('submit', function (event) {
+                            event.preventDefault();
+                            var cep = document.getElementById('cep-input').value;
+                            if (cep) {
+                                geocodeAddress(geocoder, map, cep);
+                            }
+                        });
+
+                        var locationButton = document.getElementById('location-button');
+                        locationButton.addEventListener('click', function () {
+                            if (navigator.geolocation) {
+                                navigator.geolocation.getCurrentPosition(function (position) {
+                                    var pos = {
+                                        lat: position.coords.latitude,
+                                        lng: position.coords.longitude
+                                    };
+                                    map.setCenter(pos);
+                                    var marker = new google.maps.Marker({
+                                        map: map,
+                                        position: pos
+                                    });
+                                }, function () {
+                                    alert('Falha ao obter a localização atual.');
+                                });
+                            } else {
+                                alert('Seu navegador não suporta geolocalização.');
+                            }
+                        });
+                    }
+
+                    function geocodeAddress(geocoder, map, address) {
+                        geocoder.geocode({ 'address': address }, function (results, status) {
+                            if (status === google.maps.GeocoderStatus.OK) {
+                                map.setCenter(results[0].geometry.location);
+                                var marker = new google.maps.Marker({
+                                    map: map,
+                                    position: results[0].geometry.location
+                                });
+                            } else {
+                                alert('Geocodificação falhou devido a: ' + status);
+                            }
+                        });
+                    }
+                </script>
+                <form id="search-form">
+                    <input id="cep-input" type="search" placeholder="Digite o CEP ou Endereço ">
+                    <button type="button" class="btn btn-success">Pesquisar</button>
+                    <button id="location-button" class="btn btn-info">Localização Atual</button>
+                </form>
+                <div id="map"></div>
                 </div>
-                <div class="text-end border border-top-0 rounded-bottom p-4 pb-0">                    
+
+                <div class="text-end border border-top-0 rounded-bottom p-4 pb-0">
                     <a href="fechamento_itens.html" class="btn btn-outline-success btn-lg mb-4">
                         Voltar aos Itens
                     </a>
@@ -118,6 +189,7 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/cadastro.js"></script>
+    <script>initMap();</script>
 </body>
 
 </html>
