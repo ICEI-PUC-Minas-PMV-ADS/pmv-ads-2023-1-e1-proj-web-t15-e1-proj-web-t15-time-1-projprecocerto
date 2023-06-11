@@ -62,7 +62,7 @@ Os requisitos para realização dos testes de software são:
 
 * Resultado esperado: O usuário visualiza as promoções e interage com o Banner através dos comando de avançar e voltar no próprio Banner.
    
-## CT-4 - Pesquisar na barra de pesquisa do mapa o endereço do usuário e buscar a localização atual do usuário.
+## CT-4 - Buscar na barra de pesquisa do mapa o supermecado desejado.
 
 * Requisitos associados: RF-07 - O sistema deve ser capaz de integrar-se com mapas, permitindo que os usuários visualizem a localização dos supermercados em um mapa e obtenham direções para chegar a eles.
 
