@@ -237,3 +237,25 @@ input[type="email" i] {
 #search-form i {
     padding-left: 5px;
 }
+.lado-direito {
+    float: right;
+ }
+ .filtro-container select {
+     width: 100px;
+     padding: 8px;
+     font-size: 14px;
+     border: 1px solid #2eb375;
+     border-radius: 5px;
+     background-color: #2eb375;
+     color: #fff;
+  }
+  
+  .filtro-container select:hover {
+     border-color: #fff;
+  }
+  
+  .filtro-container select:focus {
+     outline: none;
+     border-color: #fff;
+     box-shadow: 0 0 5px rgba(85, 85, 85, 0.3);
+  }
