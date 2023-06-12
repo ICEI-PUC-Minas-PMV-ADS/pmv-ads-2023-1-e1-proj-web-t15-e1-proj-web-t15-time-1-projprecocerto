@@ -2,12 +2,14 @@ function cadastrar() {
         var nome = document.getElementById('txtNome').value;
         var cpf = document.getElementById('txtCPF').value;
         var email = document.getElementById('txtEmail').value;
-
+        var senha = document.getElementById('txtSenha').value;
+    
         if (nome && cpf && email) {
             var usuario = {
                 nome: nome,
                 cpf: cpf,
-                email: email
+                email: email,
+                senha: senha
             };
 
             if (typeof(Storage) !== 'undefined') {
@@ -33,6 +35,7 @@ function cadastrar() {
                 document.getElementById('txtNome').value = '';
                 document.getElementById('txtCPF').value = '';
                 document.getElementById('txtEmail').value = '';
+                document.getElementById('txtSenha').value = '';
 
                 ler();
             } else {
@@ -58,11 +61,41 @@ function cadastrar() {
     };
 
 
+    
+    function validarLogin() {
+        var email = document.getElementById("txtEmail").value;
+        var senha = document.getElementById("txtSenha").value;
+        
+        if (email === "" || senha === "") {
+          alert("Por favor, preencha todos os campos de login.");
+        } else {
+            if(verificarCredenciais(email, senha)){
+                window.location.href="./cliente_pedidos.html"
+            }else{
+                alert("Credenciais inválidas. Verifique seu e-mail e senha.")
+            }
+          
+         
+        }
+      }
 
-    function criar() {
-        var nome = document.getElementById('txtNome').value;
-        var cpf = document.getElementById('txtCPF').value;
-        var email = document.getElementById('txtEmail').value;
+      function verificarCredenciais(email, senha) {
+
+        var registros = JSON.parse(localStorage.getItem('registros')) || [];
+
+        for (var i =0; i < registros.length; i++){
+            var usuario = registros[i];
+            if (usuario.email === email && usuario.senha === senha) {
+                return true;
+            }
+        }
+        return false;
+      }
+
+        function criar() {
+            var nome = document.getElementById('txtNome').value;
+            var cpf = document.getElementById('txtCPF').value;
+            var email = document.getElementById('txtEmail').value;
 
         if (nome !== '' && cpf !== '' && email !== '') {
             if (typeof(Storage) !== 'undefined') {
