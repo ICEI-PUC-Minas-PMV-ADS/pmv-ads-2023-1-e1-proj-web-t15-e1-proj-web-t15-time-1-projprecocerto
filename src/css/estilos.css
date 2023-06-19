@@ -237,25 +237,33 @@ input[type="email" i] {
 #search-form i {
     padding-left: 5px;
 }
+
 .lado-direito {
     float: right;
- }
- .filtro-container select {
-     width: 210px;
+}
+
+.filtro-container select {
+     width: 230px;
      padding: 8px;
-     font-size: 14px;
-     border: 1px solid #2eb375;
+     font-size: 1.0em;
+     font-weight: 500;
+     border: 2px solid #eee;
      border-radius: 5px;
-     background-color: #2eb375;
-     color: #fff;
-  }
+     background-color: #f1f1f1;
+     color: #000;
+     box-shadow: 2px 2px 2px rgba(60, 60, 60, 0.2);
+}
   
-  .filtro-container select:hover {
+.filtro-container select:hover {
      border-color: #fff;
-  }
+}
   
-  .filtro-container select:focus {
+.filtro-container select:focus {
      outline: none;
      border-color: #fff;
-     box-shadow: 0 0 5px rgba(85, 85, 85, 0.3);
-  }
+}
+
+.filtro-container select, option {
+    font-size: 1.0em;
+    font-weight: 500;
+}
