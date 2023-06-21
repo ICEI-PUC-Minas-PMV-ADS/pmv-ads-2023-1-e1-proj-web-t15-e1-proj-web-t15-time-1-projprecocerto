@@ -225,7 +225,7 @@ input[type="email" i] {
     border-radius: 3px;
     border: solid 1px #cc3140;
     background-color: #dc3545;
-    color: #e0e0e0;
+    color: #fff;
 }
 
 .search-map, .button-map {
@@ -266,4 +266,27 @@ input[type="email" i] {
 .filtro-container select, option {
     font-size: 1.0em;
     font-weight: 500;
+}
+
+.card-logo {
+    width: 120px;
+    align-self: center;
+}
+.card-sobre {
+    padding: 10px;
+    text-align: justify;
+}
+
+.card-header-sobre {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: #2eb375;
+    color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer-sobre {
+    padding: 0.5rem 1rem;
+    background-color: #2eb375;
+    border-top: 1px solid rgba(0,0,0,.125);
 }
