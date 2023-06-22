@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* <a href="precocerto.simonhenrique1.repl.co"> Preço Certo</a>
+* <a href="https://precocerto.simonhenrique1.repl.co"> Preço Certo</a>
 
 # Armazenamento do Código-Fonte
 
