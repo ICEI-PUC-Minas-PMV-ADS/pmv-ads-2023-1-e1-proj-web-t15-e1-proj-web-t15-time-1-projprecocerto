@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* <a href="https://precocerto.simonhenrique1.repl.co"> Preço Certo</a>
 
 # Armazenamento do Código-Fonte
 
