@@ -79,3 +79,7 @@ Efetuou a busca:
 
 
 ![05](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/77369235/bca8b80c-3a03-42d8-8d66-7d06031a34ce)
+
+# CT-6 - O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.
+
+![Captura de Tela (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/b3715d99-645c-4df1-8982-113631263d71)
