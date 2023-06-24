@@ -84,4 +84,14 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 * carrinho.html
 * carrinho.js
-* estilos.css 
+* estilos.css
+
+## Mapa de Busca
+
+![Captura de Tela (13)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/faee1248-3bb4-438b-b4d2-5f0ae1236022)
+
+### Artefatos da funcionalidade
+
+* fechamento_endereco.html
+* estilos.css
+
