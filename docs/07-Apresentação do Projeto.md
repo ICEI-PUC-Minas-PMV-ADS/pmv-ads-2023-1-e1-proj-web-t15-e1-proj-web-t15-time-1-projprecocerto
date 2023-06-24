@@ -6,9 +6,9 @@
 
 # Material de Apoio sobre a Apresentação de um Produto
 
-## Título do Projeto
+## Preço Certo
 
-Nome e marca do projeto
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/129537841/b023f047-aaa6-4d05-86ef-5a60a107c330)
 
 ## Identidade Visual (Marca, Design)
 
