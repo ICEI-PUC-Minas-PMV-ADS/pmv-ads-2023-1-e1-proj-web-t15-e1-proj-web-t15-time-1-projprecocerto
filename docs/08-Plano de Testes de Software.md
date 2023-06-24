@@ -97,3 +97,23 @@ Os requisitos para realização dos testes de software são:
    8. Entrar
 
 * Resultado esperado: O usuário poderá acessar o sistema com sua conta, seu login e senha criados no momento do cadastro.
+
+## CT-6 - O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados.	
+
+* Requisitos associados: RF-04
+
+* Objetivos: O sistema deve garantir que os usuários consigam comparar o preço dos produtos em diferentes supermercados.
+
+* Procedimentos:
+
+   1. Acessar o Navegador
+   2. Informar o endereço do Site
+   3. Visualizar a página principal
+   4. Localizar um produto
+   5. Adiconar ao carrinho
+   6. Ir no carrinho
+   7. Clicar no filtro   
+   8. Escolher um supermercado
+   9. Comparar os preços
+
+* Resultado esperado: O usuário conseguirá comparar o pre;o dos produtos.
