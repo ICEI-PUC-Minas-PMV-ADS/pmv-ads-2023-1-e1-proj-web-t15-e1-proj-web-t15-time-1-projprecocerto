@@ -116,4 +116,4 @@ Os requisitos para realização dos testes de software são:
    8. Escolher um supermercado
    9. Comparar os preços
 
-* Resultado esperado: O usuário conseguirá comparar o pre;o dos produtos.
+* Resultado esperado: O usuário conseguirá comparar o preço dos produtos.
