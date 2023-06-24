@@ -24,3 +24,14 @@ O template gerado está disponível no repositório Preço Certo e consiste no s
 
 ![Captura de Tela (5)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/3ec6ec68-a775-42e3-9265-047a8763a759)
 
+## Tela Conferir 
+
+![Captura de Tela (6)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/cf30fd84-f93b-4ddc-9bc0-428caf704cf6)
+
+## Tela Mapa
+
+![Captura de Tela (7)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/6b6c2b04-8f92-4add-aad2-8d03c6b6884a)
+
+## Tela Finalizar
+
+![Captura de Tela (8)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/4df78522-fbf1-4f96-a91c-2b06ca381305)
