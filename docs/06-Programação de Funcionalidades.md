@@ -15,6 +15,15 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 | RF-10 | O sistema deve permitir que os usuários visualizem promoções. | Baixa | Felipe |
 | RF-11 | O sistema deve permitir que os clientes adicionem produtos a seus carrinhos de compras, atualizem quantidades e removam produtos. | Baixa | Gabriel |
 
+## Funcionalidades priorizadas na SPRINT 4
+
+| ID | Descrição | Prioridade | Responsável |
+| :---: | --- | :---: | :---: |
+| RF-04 | O sistema deve permitir que os usuários comparem os preços dos produtos em diferentes supermercados. | Alta | Tatiana/Gabriel|
+| RF-06 |O sistema deve permitir que os usuários se inscrevam em notificações por e-mail, que forneçam informações sobre promoções, descontos e ofertas especiais em seus supermercados favoritos. | Baixa | Simon |
+| RF-07 |O sistema deve ser capaz de integrar-se com mapas, permitindo que os usuários visualizem a localização dos supermercados em um mapa e obtenham direções para chegar a eles. | Alta | Simon/Felipe/Pedro |
+| RF-08 | O sistema deve permitir que os usuários visualizem informações detalhadas sobre os supermercados, incluindo endereço, telefone, horário de funcionamento, opiniões dos usuários e serviços disponíveis . | Média |  Simon/Felipe/Pedro |
+
 ## Login
 
 ![Captura de Tela (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/0c81a18d-b0b4-49cc-9eee-a7760c9076d8)
@@ -58,5 +67,21 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 * search.js 
 * estilos.css 
 
+## Newsletter
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/cb8d4c82-8c9b-46e2-864a-d44e4d57e89e)
 
+### Artefatos da funcionalidade
+
+* index.html
+* estilos.css
+* 
+## Filtro de Comparação
+
+![Captura de Tela (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/b3715d99-645c-4df1-8982-113631263d71)
+
+### Artefatos da funcionalidade
+
+* carrinho.html
+* carrinho.js
+* estilos.css 
