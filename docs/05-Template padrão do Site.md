@@ -20,6 +20,10 @@ O template gerado está disponível no repositório Preço Certo e consiste no s
 
 ![Captura de Tela (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/0c81a18d-b0b4-49cc-9eee-a7760c9076d8)
 
+## Tela Minha Conta
+
+![Captura de Tela (11)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/c8b0cac4-ef3f-4ad5-8311-664c3dfde02c)
+
 ## Tela de Carrinho
 
 ![Captura de Tela (5)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/3ec6ec68-a775-42e3-9265-047a8763a759)
