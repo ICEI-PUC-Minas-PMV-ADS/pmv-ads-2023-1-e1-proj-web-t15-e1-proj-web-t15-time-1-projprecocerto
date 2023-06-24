@@ -17,17 +17,17 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ## Login
 
-![Captura de tela 2023-05-14 203251](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/1f7dcdc6-065a-4150-bee1-54b40d103ec0)
+![Captura de Tela (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/0c81a18d-b0b4-49cc-9eee-a7760c9076d8)
 
 ### Artefatos da funcionalidade
 
 * login.html
-* login.js
+* cadastro.js
 * estilos.css
 
 ## Cadastro
 
-![Captura de tela 2023-05-14 203217](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/fd158737-4c97-4ad1-8106-71e83f4dcc50)
+![Captura de Tela (9)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/943d9a69-724a-4a27-a395-05b8112d3ed0)
 
 ### Artefatos da funcionalidade
 
@@ -38,11 +38,12 @@ Esses requisitos foram os que nossa equipe priorizou para a entrega da SPRINT 3.
 
 ## Carrinho
 
-![Captura de tela 2023-05-18 154102](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/129537841/e4fd2c64-d5d9-4ec9-ab63-5e61002265fb)
+![Captura de Tela (5)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t15-e1-proj-web-t15-time-1-projprecocerto/assets/74187849/3ec6ec68-a775-42e3-9265-047a8763a759)
 
 ### Artefatos da funcionalidade
 
 * carrinho.html
+* carrinho.js
 * estilos.css       
      
 
